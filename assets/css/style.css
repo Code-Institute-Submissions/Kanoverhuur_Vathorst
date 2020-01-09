@@ -15,6 +15,12 @@ body {
 
 /* ----------------- Hero image */
 
+#hero-image {
+    background: url("hero-image3020_620.jpg") no-repeat center center;
+    width: 100%;
+    max-height: 600px;
+}
+
 /* ----------------- Jumbotron */
 
 

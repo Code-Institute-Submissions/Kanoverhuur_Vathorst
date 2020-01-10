@@ -13,6 +13,7 @@ body {
 
 /* ----------------- navbar */
 
+
 /* ----------------- Hero image */
 
 #hero-outer {
@@ -32,7 +33,9 @@ body {
     justify-content: center;
     position: absolute;
     width: 100%;
-    height: 100%;    
+    height: 100%;  
+    padding: 0;  
+    overflow: hidden;
 }
 
 /* ----------------- Jumbotron */
@@ -52,5 +55,29 @@ body {
 
 /* ----------------- Canoe section */
 
+.business-offer {
+    height: 900px;
+    background-color: yellow;
+}
+
 
 /* ----------------- Footer */
+
+.footer-socials {
+    background-color: #049DD9;
+    height: 150px;
+}
+
+.socials li i {
+    font-size: 160%;
+    color: #f2f2f2;
+    }
+
+.socials li {
+    list-style: none;
+    display: inline;
+    text-align: center;
+    }
+
+
+

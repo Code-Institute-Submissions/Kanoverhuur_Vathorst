@@ -56,12 +56,38 @@ body {
 /* ----------------- Canoe section */
 
 .business-offer {
-    height: 900px;
-    background-color: yellow;
+    margin-top: 20px;
+}
+
+.circle-container {
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: rgb(133, 133, 139);
+    margin-left: 25px;
+    padding: 20px;
+    }
+
+.circle-image {
+    height: 100%;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.offer-container {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    color: black;
 }
 
 
 /* ----------------- Footer */
+
+.footer {
+    height: 150px;
+}
 
 .footer-socials {
     background-color: #049DD9;

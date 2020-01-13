@@ -118,6 +118,13 @@ body {
     background: url("../images/adobestock_canoes.jpeg") no-repeat center center;
 }
 
+.routes-image {
+    height: 100%;
+    border-radius: 50%;
+    background: url("../images/routes.jpg") no-repeat center center;
+}
+
+
 
 /* ----------------- Footer */
 

@@ -14,6 +14,26 @@ body {
 /* ----------------- navbar */
 
 
+.topnav a {
+  float: left;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a {
+      display: none;
+      }
+  .topnav a.icon {
+    float: right;
+    display: block;
+    color: black;
+  }
+}
+
 /* ----------------- Hero image */
 
 #hero-outer {
@@ -38,19 +58,29 @@ body {
     overflow: hidden;
 }
 
-/* ----------------- Jumbotron */
+/* --------------------- Jumbotron ---------*/
 
-.jumbotron-welcome {
-    background-color: rgba(0,0,0, 0.6);
-    position: relative;
-    width: 449px;
-    height: 134px;
-    padding: 0;
-    bottom: 0;
-    float: right;
-    border: 2px solid #ffffff;
-    text-align: center;
-    color: #f2f2f2;
+.bottom-right {
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  padding: 15px;
+  margin: 15px;
+  background-color: rgba(0,0,0, 0.3);
+}
+
+.bottom-right h2 {
+    color: white;
+    font-size: 400%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.btn-book-now {
+    align-items: center;
 }
 
 /* ----------------- Canoe section */

@@ -80,7 +80,7 @@ body {
 }
 
 .btn-book-now {
-    align-items: center;
+    margin-top: 15px;    
 }
 
 /* ----------------- Canoe section */
@@ -118,6 +118,7 @@ body {
     background: url("../images/adobestock_canoes.jpeg") no-repeat center center;
 }
 
+
 /* ----------------- Footer */
 
 .footer {
@@ -135,7 +136,7 @@ body {
     }
 
 .socials li {
-    list-style: none;
+    list-style-type: none;
     display: inline;
     text-align: center;
     }

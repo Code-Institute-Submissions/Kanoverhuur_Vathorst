@@ -98,6 +98,15 @@ body {
     margin-top: 15px;    
 }
 
+/* ----------------- Booking modal */
+
+.text-align-modal {
+    text-align: left;
+}
+
+
+
+
 /* ----------------- Canoe section */
 
 .business-offer {
@@ -175,6 +184,7 @@ body {
     border-radius: 50%;
     background: url("") no-repeat center center;
 }
+
 
 
 /* ----------------- Footer */

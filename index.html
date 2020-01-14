@@ -65,50 +65,91 @@
 				<div class="bottom-right text-center">
 					<h2 class="uppercase">Welcome to</h2>
 					<h2 class="uppercase">Kanoverhuur</h2>
-                    <h2 class="uppercase">Vathorst</h2>
-                    <div class="text-center">
-                    <button class="btn btn-lg btn-success btn-book-now">Book Now!</button>
-                    </div>
+					<h2 class="uppercase">Vathorst</h2>
+					<div class="text-center">
+						<button class="btn btn-lg btn-success btn-book-now" data-toggle="modal" data-target="#BookNow" >Book Now!</button>
+						<div class="modal" id="BookNow">
+							<div class="modal-dialog">
+
+								<div class="modal-content">
+									<!-- Modal Header -->
+									<div class="modal-header">
+										<h4 class="modal-title">Booking Request</h4>
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+									</div>
+
+									<!-- Modal body -->
+									<div class="modal-body text-align-modal">
+                                                                            <p>I'd like to book the following:</p>
+										<div class="form-group">
+                                            <input type="number"><h5>Single Person Kayak</h5>
+                                            <label>Date</label>
+                                            <input type="date" />
+                                            <label>Time slot</label>
+                                            <input type="time" />
+                                            <br>
+											<label for="fname">First Name:</label>
+											<input type="text" class="form-control" id="fname" value="First Name">
+                                            <label for="lname">Last Name:</label>
+											<input type="text" class="form-control" id="lname">
+
+											<div class="form-group">
+												<label for="pwd">Additional message:</label>
+												<input type="text" class="form-control" id="#">
+
+											</div>
+
+											<!-- Modal footer -->
+											<div class="modal-footer">
+												<button type="submit" class="btn btn-success" data-dismiss="modal">Send Booking Request</button>
+											</div>
+
+										</div>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+
+					</div>
+
+
 				</div>
-                
-			</div>
-
-
-		</div>
 	</section>
 	<section class="container-fluid business-offer">
 		<div class="row">
 			<div class="col-sm-12 col-md-6 col-lg-4">
 				<div class="offer-container">
-                <a href="canoes.html" target="_blank">
-					<div class="circle-container">
-						<div class="circle-image kayaks-image">                        
+					<a href="canoes.html" target="_blank">
+						<div class="circle-container">
+							<div class="circle-image kayaks-image">
+							</div>
 						</div>
-					</div>
-					<h2>Canoes & Kayaks</h2>
-                    </a>
+						<h2>Canoes & Kayaks</h2>
+					</a>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-6 col-lg-4">
 				<div class="offer-container">
-                <a href="routes.html" target="_blank">
-					<div class="circle-container">
-						<div class="circle-image routes-image">
+					<a href="routes.html" target="_blank">
+						<div class="circle-container">
+							<div class="circle-image routes-image">
+							</div>
 						</div>
-					</div>
-					<h2>Routes</h2>
-                    </a>
+						<h2>Routes</h2>
+					</a>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-12 col-lg-4">
 				<div class="offer-container booking-container">
-                <a href="booking.html" target="_blank">
-					<div class="circle-container">
-						<div class="circle-image booking-image">
+					<a href="booking.html" target="_blank">
+						<div class="circle-container">
+							<div class="circle-image booking-image">
+							</div>
 						</div>
-					</div>
-					<h2>Prices & Booking</h2>
-                    </a>
+						<h2>Prices & Booking</h2>
+					</a>
 				</div>
 			</div>
 		</div>

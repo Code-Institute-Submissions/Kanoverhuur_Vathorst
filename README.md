@@ -111,6 +111,9 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
+BUGS:
+- when I changed the third column of the busines section to md-12, navigation-bar started to hide partly behind the hero-image. 
+
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).

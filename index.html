@@ -75,28 +75,38 @@
 									<!-- Modal Header -->
 									<div class="modal-header">
 										<h4 class="modal-title">Booking Request</h4>
-										<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<!--	<button type="button" class="close" data-dismiss="modal">&times;</button> -->
 									</div>
 
 									<!-- Modal body -->
 									<div class="modal-body text-align-modal">
-                                                                            <p>I'd like to book the following:</p>
+                                       <p>I'd like to book the following:</p>
 										<div class="form-group">
-                                            <input type="number"><h5>Single Person Kayak</h5>
-                                            <label>Date</label>
-                                            <input type="date" />
-                                            <label>Time slot</label>
-                                            <input type="time" />
-                                            <br>
+                                            <input type="number" class="form-control-number" name="quantity" min="1" max="2" /><h5 class="modal-heading">Single Person Kayak</h5><br>
+                                            <input type="number" class="form-control-number" name="quantity" min="1" max="2" /><h5 class="modal-heading">Two Person Kayak</h5><br>
+                                            <input type="number" class="form-control-number" name="quantity" min="1" max="2" /><h5 class="modal-heading">Canadian Family Canoe</h5><br>
+                                            <hr>
+                                            <label>Preferred date:</label>
+                                            <input type="date" class="form-control" />
+                                            <label>From:</label>
+                                            <input type="time" class="form-control"/>
+                                            <label>To:</label>
+                                            <input type="time" class="form-control" />
+                                            <hr>
+                                            <h5>Total number of people</h5>
+                                            <label>Adults</label>
+                                            <input type="number" class="form-control-number" />
+                                            <label>Children</label>
+                                            <input type="number" class="form-control-number"/>
+                                            <hr>
 											<label for="fname">First Name:</label>
-											<input type="text" class="form-control" id="fname" value="First Name">
+											<input type="text" class="form-control" id="fname" />
                                             <label for="lname">Last Name:</label>
-											<input type="text" class="form-control" id="lname">
+											<input type="text" class="form-control" id="lname" />
 
 											<div class="form-group">
-												<label for="pwd">Additional message:</label>
-												<input type="text" class="form-control" id="#">
-
+												<label>Additional message:</label>
+												<input type="text" class="form-control input-lg" id="#" />
 											</div>
 
 											<!-- Modal footer -->

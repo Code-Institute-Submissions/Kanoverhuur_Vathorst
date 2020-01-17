@@ -133,7 +133,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Media
 - The photos used in this site were obtained from LakesideSUP, Rien Hazeleger, Adobe Stock photos and Unsplash. See also https://www.pexels.com, https://unsplash.com, https://www.freepik.com. 
-[before submitting; list photos and acknowledgements here]
+_ the booking picture was obtained from photographer Bruce Mars and found on Unsplash https://unsplash.com/@brucemars?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge
 
 ### Acknowledgements
 

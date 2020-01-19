@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Source+Sans+Pro:200,300,400,600,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script&display=swap');
 
 * {
     margin: 0;
@@ -21,6 +22,13 @@ body {
     font-size: 36px;
 }
 
+.navbar-brand h1 {
+    color: #aa0d19;
+    font-family: "Oleo Script", cursive;
+    font-size: 70px;
+    padding-left: 5px;
+}
+
 .navbar-collapse li {
     text-decoration: none;
 }
@@ -32,6 +40,10 @@ body {
 
 .navlink {
     font-size: 24px;
+}
+
+.navbar-dark {
+    background-color: #000;
 }
 /* ----------------- Hero image */
 
@@ -202,7 +214,7 @@ body {
 }
 
 .footer-socials {
-    background-color: #049DD9;
+    background-color: #000000;
     height: 150px;
 }
 

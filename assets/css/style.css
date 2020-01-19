@@ -115,24 +115,12 @@ body {
     margin-top: 15px;    
 }
 
-/* ----------------- Booking modal */
+/* ------------------ Introduction section */
 
-.text-align-modal {
-    text-align: left;
-}
-
-.form-control-number {
-    display: block;
-    width: 25px;
-    height: 25px;
-    color: #495057;
-    background-color: white;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;   
-}
-
-.modal-heading {
-    font-size: 16px; 
+.intro-text {
+    text-align: center;
+    font-size: 30px;
+    color: #777777;
 }
 
 

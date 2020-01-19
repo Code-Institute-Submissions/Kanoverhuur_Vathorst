@@ -79,36 +79,6 @@ body {
     color: #f2f2f2;
 }
 
-/*
-
-.bottom-right {
-  position: absolute;
-  bottom: 100px;
-  right: 100px;
-  padding: 15px;
-  margin: 0;
-  background-color: rgba(0,0,0, 0.3);
-}
-
-
-@media screen and (max-width: 991px) {
-.bottom-right.text-center {
-    width: 250px;
-    height: 200px;
-    }
-.bottom-right h2.uppercase {
-    font-size: 24px;
-    }
-}
-
-.bottom-right h2 {
-    color: white;
-    font-size: 400%;
-    font-family: "Open Sans", sans-serif;
-}
-
-*/
-
 .uppercase {
     text-transform: uppercase;
 }

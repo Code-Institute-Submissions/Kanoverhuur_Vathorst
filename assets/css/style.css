@@ -17,6 +17,10 @@ body {
     padding: 0;
 }
 
+.navbar-brand {
+    font-size: 36px;
+}
+
 .navbar-collapse li {
     text-decoration: none;
 }
@@ -26,26 +30,9 @@ body {
     color: #f2f2f2;
 }
 
-.topnav a {
-  float: left;
-  color: blue;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+.navlink {
+    font-size: 24px;
 }
-
-@media screen and (max-width: 600px) {
-  .topnav a {
-      display: none;
-      }
-  .topnav a.icon {
-    float: right;
-    display: block;
-    color: black;
-  }
-}
-
 /* ----------------- Hero image */
 
 
@@ -61,14 +48,14 @@ body {
     position: relative;
     width: 100%;
     height: 100vh;  
-    padding: 0;  
-    overflow: hidden;
+    padding: 0; 
 }
 
 /* --------------------- Jumbotron ---------*/
 
 .jumbotron {
     background-color: transparent;
+    height: 100%;
 }
 
 .jumbotron-overlay {
@@ -76,11 +63,20 @@ body {
     height: 100%;
     width: 100%;
     position: absolute;
+    /*z-index: 1; */
+}
+
+.jumbotron h1 {
+    font-size: 72px;
+}
+
+.jumbotron h3 {
+    font-size: 48px;
 }
 
 .jumbotron h1,h3 {
     text-align: center;
-    color: #f2f2f2
+    color: #f2f2f2;
 }
 
 

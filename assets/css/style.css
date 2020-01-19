@@ -37,7 +37,7 @@ body {
 
 
 .hero-image {
-    background: url(../images/hero-image3020_620.jpg) no-repeat center center;
+    background: url(../images/hero-image3020_620.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

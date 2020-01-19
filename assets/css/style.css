@@ -48,11 +48,6 @@ body {
 
 /* ----------------- Hero image */
 
-#hero-outer {
-    width: 100%;
-    height: 750px;
-    position: relative;
-}
 
 .hero-image {
     background: url(../images/hero-image3020_620.jpg) no-repeat center center;
@@ -60,14 +55,12 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-       /*  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 
-    filter: grayscale(100%); */
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: relative;
     width: 100%;
-    height: 100%;  
+    height: 100vh;  
     padding: 0;  
     overflow: hidden;
 }
@@ -75,24 +68,22 @@ body {
 /* --------------------- Jumbotron ---------*/
 
 .jumbotron {
-    background-image: url(../images/hero-image3020_620.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 50vh;
-    width: 100%;
-    color: #f2f2f2;
-    text-align: center;
-    bottom: 15px;
-    overflow: hidden;
-    border-radius: 0px;
+    background-color: transparent;
 }
 
-.jumbotron h2 {
-    font-size: 48px;
-    text-align: right;
-    padding-top: 100px;
+.jumbotron-overlay {
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
+
+.jumbotron h1,h3 {
+    text-align: center;
+    color: #f2f2f2
+}
+
+
 
 .bottom-right {
   position: absolute;

@@ -96,7 +96,10 @@ body {
 }
 
 .btn-book-now {
-    margin-top: 15px;    
+    margin-top: 15px;
+    background-color: #aa0d19;
+    color: #f2f2f2;
+    border: 1px solid #f2f2f2;   
 }
 
 /* ------------------ Introduction section */
@@ -104,7 +107,7 @@ body {
 .intro-text h2 {
     text-align: center;
     font-size: 24px;
-    color: #777777;
+    color: #000000;
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
@@ -115,13 +118,13 @@ body {
 .quotes {
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
-    color: #049DD9;
+    color: #000000;
     text-align: center;
 }
 
 .quotes hr {
     width: 50%;
-    color: #aedff2;
+    color: #aa0d19;
     margin: 0 auto;
     margin-top: 10px;
     padding-bottom: 5px;
@@ -137,7 +140,7 @@ body {
 .circle-container {
     height: 300px;
     width: 300px;
-    border: 2px solid #049DD9;;
+    border: 2px solid #000000;
     border-radius: 50%;
     background-color: #f2f2f2;);
     margin-left: 25px;
@@ -147,6 +150,7 @@ body {
 
 .offer-container h2 {
     font-size: 24px;
+    color: #000000;
 }
 
 .circle-image {

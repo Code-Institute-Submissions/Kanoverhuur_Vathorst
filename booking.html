@@ -58,15 +58,31 @@
 	<div class="container-fluid">
 		<h3>Yes, I'd like to book the following:</h3>
 		<form>
-			<div class="form-group">
-
-				Place canoe options here
-
-			</div>
+			<select class="form-control">
+            <option>1 single person kayak</option>
+            <option>2 single person kayaks</option>
+            </select>
+			<select class="form-control">
+            <option>1 dual person kayak</option>
+            <option>2 dual person kayaks</option>
+            </select>
+			<select class="form-control">
+            <option>1 Canadian Family Canoe</option>
+            <option>2 Canadian Family Canoes</option>
+            </select>
 		</form>
 
 		<form>
 			<div class="form-group">
+				<h3>My Preferred Date & Time</h3>
+				<div class="row">
+					<div class="col-6">
+						Place date and time picker here
+					</div>
+					<div class="col-6">
+						Place date and time picker here
+					</div>
+				</div>
 			</div>
 		</form>
 
@@ -79,25 +95,25 @@
 						<label>First Name</label>
 						<input type="text" class="form-control" name="fname" id="fname" placeholder="First Name">
                     </div>
-					<div class="col-6">
+						<div class="col-6">
 							<label for="last_name">Last Name</label>
 							<input type="text" class="form-control" name="last_name" id="last_name" placeholder="Last Name">
                     </div>
-                    <div class="col-12">
-							<label for="email">E-mail Address</label>
-							<input type="email" class="form-control" name="email" id="email" placeholder="Email Address">
+							<div class="col-12">
+								<label for="email">E-mail Address</label>
+								<input type="email" class="form-control" name="email" id="email" placeholder="Email Address">
 					</div>
-                    <div class="col-12">		
-                            <label for="telephone">Telephone Number</label>
-							<input type="number" class="form-control" name="telephone" id="telephone" value="telephone" placeholder="06-12345678">
+								<div class="col-12">
+									<label for="telephone">Telephone Number</label>
+									<input type="number" class="form-control" name="telephone" id="telephone" value="telephone" placeholder="06-12345678">
 					</div>
-                    <div class="col-12">		
-                            <button type="submit" class="btn btn-success btn-large">Confirm</button>
-				    </div>
-                        </div>
+									<div class="col-12">
+										<button type="submit" class="btn btn-success btn-large">Confirm</button>
+									</div>
+								</div>
 
 
-			</div>
+							</div>
 		</form>
 
 	</div>

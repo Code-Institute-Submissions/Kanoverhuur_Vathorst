@@ -295,5 +295,12 @@ body {
   opacity: 0.7;
     }
 
+    /*------------- Booking page*/
+
+    .form-control {
+        width: 66%;
+        margin-bottom: 15px;
+    }
+
 
 

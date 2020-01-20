@@ -56,64 +56,65 @@
 	</div>
 
 	<div class="container-fluid">
-		<h3>Yes, I'd like to book the following:</h3>
 		<form>
-			<select class="form-control">
+			<fieldset>
+			<legend class="uppercase">Yes, I'd like to book the following:</legend>
+			<select class="form-control custom-select">
+            <option selected>Single Person Kayaks</option>
             <option>1 single person kayak</option>
             <option>2 single person kayaks</option>
             </select>
-			<select class="form-control">
+				<select class="form-control custom-select">
+            <option selected>Dual Person Kayaks</option>
             <option>1 dual person kayak</option>
             <option>2 dual person kayaks</option>
             </select>
-			<select class="form-control">
+				<select class="form-control custom-select">
+            <option selected>Canadian Family Canoes</option>
             <option>1 Canadian Family Canoe</option>
             <option>2 Canadian Family Canoes</option>
             </select>
-		</form>
-
-		<form>
-			<div class="form-group">
-				<h3>My Preferred Date & Time</h3>
-				<div class="row">
-					<div class="col-6">
-						Place date and time picker here
-					</div>
-					<div class="col-6">
-						Place date and time picker here
+			</fieldset>
+			<fieldset>
+            <legend class="uppercase">My Preferred Date & Time</legend>
+				<div class="form-group">
+					<div class="row">
+						<div class="col-6">
+							Place date picker here
+						</div>
+						<div class="col-6">
+							Place time picker here
+						</div>
 					</div>
 				</div>
-			</div>
-		</form>
+			</fieldset>
 
-
-		<form>
-			<div class="form-group">
-				<h3>Please confirm my reservation at:</h3>
-				<div class="row">
-					<div class="col-6">
-						<label>First Name</label>
-						<input type="text" class="form-control" name="fname" id="fname" placeholder="First Name">
-                    </div>
+			<fieldset>
+            <legend class="uppercase">Please Confirm My Reservation At:</legend>
+				<div class="form-group">
+					<div class="row">
+						<div class="col-6">
+							<label>First Name</label>
+							<input type="text" class="form-control" name="fname" id="fname" placeholder="First Name">
+                        </div>
 						<div class="col-6">
 							<label for="last_name">Last Name</label>
 							<input type="text" class="form-control" name="last_name" id="last_name" placeholder="Last Name">
-                    </div>
-							<div class="col-12">
-								<label for="email">E-mail Address</label>
-								<input type="email" class="form-control" name="email" id="email" placeholder="Email Address">
+                        </div>
+						<div class="col-12">
+							<label for="email">E-mail Address</label>
+							<input type="email" class="form-control" name="email" id="email" placeholder="Email Address">
+					    </div>
+						<div class="col-12">
+							<label for="telephone">Telephone Number</label>
+							<input type="number" class="form-control" name="telephone" id="telephone" value="telephone" placeholder="06-12345678">
+					    </div>
+						<div class="col-12">
+							<button type="submit" class="btn btn-success btn-large">Confirm</button>
+						</div>
 					</div>
-								<div class="col-12">
-									<label for="telephone">Telephone Number</label>
-									<input type="number" class="form-control" name="telephone" id="telephone" value="telephone" placeholder="06-12345678">
-					</div>
-									<div class="col-12">
-										<button type="submit" class="btn btn-success btn-large">Confirm</button>
-									</div>
-								</div>
-
-
-							</div>
+				</div>
+            </fieldset>
 		</form>
 
 	</div>

@@ -76,8 +76,38 @@ body {
     justify-content: center;
     position: relative;
     width: 100%;
-    height: 100vh;  
+    height: 50vh;  
     padding: 0; 
+}
+
+.routes-background {
+    background: url(../images/filip-mroz-unsplash.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 50vh;  
+    padding: 0;
+}
+
+.canoes-background {
+    background: url(../images/james-coleman-unsplash.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 50vh;  
+    padding: 0;
 }
 
 /* --------------------- Jumbotron ---------*/

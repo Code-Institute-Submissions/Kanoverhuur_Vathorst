@@ -34,6 +34,9 @@ Use this section to provide insight into your UX process, focusing on who this w
 
 The Vathorst district has 26,441 inhabitants (2019, source City of Amersfoort), of which 79% is in the age bracket of 5-54 years. 26% of total inhabitants is between 5 and 19 years old. The total number
 of households is 2,627, of which almost 1,000 are families with one or more children. 75% of the inhabitants are in the higher income groups. The target audience is a highly mobile savvy public.  
+The city of Amersfoort has developed the Vathorst area with active use of the water in mind. Especially in the Laak area, where houses have been built with 12 hectares of available water in the canals and the
+surrounding area. Kanoverhuur Vathorst is located in the Laak area and offers easy access to the canals and the surrounding nature. 
+
 They want to be able to quickly see whether 
 a) canoes are available
 b) what the pricing is
@@ -53,8 +56,19 @@ Target group
 -	Very mobile savvy, highly educated, well paid jobs generally.  Mobile-first approach required, ipad/tablets second most important, desktop third.
 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+## Client Stories
+1. As a user, I want to know what the opening hours are, so that I can determine when I can rent a kayak or canoe (opening hours)
+2. As a user, I want to know which canoes & kayaks are for rent, so I can decide which and how many to rent for my purpose (canoe & kayak overview)
+3. As a user, once I know when and what to rent, I want to be able to conveniently and quickly provide my data so that I can book a canoe (booking)
+4. As a user, I want to know what I can see, so that I can determine where to go (possible routes)
+5. As a user, I want to know how much renting a kayak or canoe costs, so that I can determine what I will spend in total (pricing information)
+6. As a user, I want to know what accessories are available, so that I or my family members can have a safe time on the water (life vests, bins, etc)
+7. As a user, I want to know where I can rent a canoe and kayak, so that I can determine where to go and how to park (contact details, parking information)
+8. As a user, I want to know how others experienced this company, so that I know whether they provide for a happy and fun outing (social media)
+9. As a user, I want to know what my payment options are, so that I can use the appropriate payment method (payment options)
+10. As a user, I want to know what to do when I want to cancel, so that I do not incur any costs (cancellation policy, general conditions)
+
+
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 

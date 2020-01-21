@@ -1,28 +1,40 @@
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/RienHazeleger/Kanoverhuur_Vathorst) 
 # Kanoverhuur_Vathorst
 
-Kanoverhuur_Vathorst (= a canoe rental agency in the city of Amersfoort, The Netherlands) is a website enabling existing and prospective inhabitants of the Amersfoort Vathorst area to inform themselves of the possibilities to rent one or more canoes to explore the urban and nature area in and surrounding their home area. The site aims to inform prospective and existing clients on the type of recreational canoes (single person, two-person, Canadian family canoe), possible routes to take, pricing per day/hour/canoe, equipment and accessories for rent, general conditions and cancellation, payment options and packages for larger family outings or birthday parties, as well as location, parking information and opening hours.
+Kanoverhuur Vathorst is a canoe rental agency in Amersfoort, The Netherlands, located in the Vathorst district. The district has gained status for its 
+architectural beauty, its central and convenient location, its closeness to the Arkemheen Polder and the abundance of water. The Vathorst district is popular with families and is
+highly attractive families moving from Amsterdam and Utrecht. Kanoverhuur Vathorst is the third company in the district offering recreational rental vehicles on the water, alongside
+Sloepverhuur Vathorst (electric dinghys) and Lakeside SUP (stand up paddle board school and rental). Kanoverhuur Vathorst is a second activity of the latter.  
 
-With this product, Kanoverhuur Vathorst aims to attract more clients and increase its return on investment on the canoes for the year 2020 and beyond.
+This website aims to inform inhabitants of the Vathorst district of: 
+- possibilities to rent kayaks and canoes and accessories 
+- possible routes and architecture to enjoy
+- pricing per day/hour/canoe
+- the general conditions and cancellation policy
+- payment options
+- packages for family outings or birthday parties
+- instructions for safe and comfortable canoeing
+- as well as location, parking information and opening hours.
+
+Commercially, Kanoverhuur Vathorst aims to
+- increase brand awareness
+- attract more clients
+- simplify booking through its reservation form
+- and increase its return on investment on the canoes for the year 2020 and beyond.
 
 This is primarily a B2C application, although companies occasionally may reach out for a company outing (B2B). For that a separate section/page is envisaged for future releases with tailor made content.
 The footer will show the links to socials (not present yet).
 
-In future releases, an API to Google maps will be included, as well as the possibility to make online reservations based on the availability of canoes per day or part of the day. We also foresee an API to a weather forecast to be featured on the homepage.
-We will also add a section to feature reviews and possibly a gallery, although we may wish to just simply provide a link to our socials for photos and videos. 
-We also foresee an instructional max-3-minute video for people to watch prior to arriving at Kanoverhuur Vathorst, enabling them to take knowledge of safe and paddling.
+Although being a second activity of Lakeside SUP, Kanoverhuur Vathorst will use its own name and branding and chooses to use colors that are different to the colors of Lakeside SUP.
 
-Kanoverhuur Vathorst is a second activity of Lakeside SUP, a stand-up paddle board school and SUP-rental company in the same Vathorst area. Kanoverhuur Vathorst will use its own name and branding, however chooses to use colors that are close to or will match the colors of Lakeside SUP (see https://lakesidesup.nl) for consistency and brand recognition.
-
-The site will be featured in Dutch as well as English, for both the sake of enabling Code Institute readers to understand the content as well as targeting part of the international clientele in the Vathorst area.
+The site targets mainly Dutch-speaking clients, but is made in English, enabling Code Institute readers to understand the content. The final live version will be in Dutch only.
 
 ## UX
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-Strategy Plan:
-Target audience:
-Mobile savvy public, mostly on smart phone. They want to be able to quickly see whether 
+The Vathorst district has 26,441 inhabitants (2019, source City of Amersfoort), of which 79% is in the age bracket of 5-54 years. 26% of total inhabitants is between 5 and 19 years old. The total number
+of households is 2,627, of which almost 1,000 are families with one or more children. 75% of the inhabitants are in the higher income groups. The target audience is a highly mobile savvy public.  
+They want to be able to quickly see whether 
 a) canoes are available
 b) what the pricing is
 c) what the location is and
@@ -46,13 +58,14 @@ In particular, as part of this section we recommend that you provide a list of U
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
-## Desired Features
+## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+-   The website will have four separate pages: a home page, a Canoes page, a Routes page and a Booking page that will include contact details.
+-   Each page will host a logo with a link to the home page in the left top corner
+-   Each page will have a top-fixed navigation bar that is outlined to the top right side. On a mobile this will be a 'hamburger' button.
+-   Each page will have a footer, containing links to the social media accounts
+-   Each page will feature a jumbotron picture with a "Book Now" button (except for the Booking page), enabling customers to quickly navigate to the booking page. 
 
--	The top left corner will house the logo and the hyperlink to the homepage.
--   The top right corner of the page will house the navigation bar (on a mobile represented by the 'hamburger' icon). This will include "Home", "Our canoes", "Canoe routes", "Pricing", "Reservations", "About us" and a "Contact" link.
--   A hero image of a canoe on the water, with the canoe on the left. 
 -   On top of the hero image a jumbotron with a welcome message and a "Reservations" button for returning clients.
 -   The center part of the homepage will house three clickable images (round shaped), next to each other on tablet and screen and below each other on a mobile, with two sencentes each for the respective topics "Our canoes", "Canoe trips/routes" and "Pricing". Each of the images will be clickable to their respective pages and get an effect (to be determined).
 -   Below the center there will be a "reservations" button, leading to a modal with keys such as name, reservation data, canoe type (dropdown), number of canoes, phone and e-mail address. Once submitted, the resulting page will mention that we will be in touch soon.
@@ -83,6 +96,10 @@ In addition, you may also use this section to discuss plans for additional featu
 -	an instructional max-3-minute video for clients to watch prior to arriving at Kanoverhuur Vathorst, enabling them to take knowledge of safe and fun paddling. The video will be hosted on Youtube or Vimeo. The purpose of the video is
     to give parents the feeling that we're taking security of their children and themselves very seriously. Following the instructions will also contribute to the fun on the water and prevent injuries.
 -   an instructional video on how to pass any sluice or canoe crossing
+
+In future releases, an API to Google maps will be included, as well as the possibility to make online reservations based on the availability of canoes per day or part of the day. We also foresee an API to a weather forecast to be featured on the homepage.
+We will also add a section to feature reviews and possibly a gallery, although we may wish to just simply provide a link to our socials for photos and videos. 
+We also foresee an instructional max-3-minute video for people to watch prior to arriving at Kanoverhuur Vathorst, enabling them to take knowledge of safe and paddling.
 
 
 ## Technologies Used

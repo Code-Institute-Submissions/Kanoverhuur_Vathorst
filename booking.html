@@ -54,10 +54,11 @@
 		</div>
 	</div>
 
-	<div class="container-fluid">
+	<div class="row container-fluid">
+    <div class="col-md-10 col-lg-8 booking-column">
 		<form>
 			<fieldset>
-			<legend class="uppercase">Yes, I'd like to book the following:</legend>
+			<legend class="booking-legend">Yes, I'd like to book the following:</legend>
 			<select class="form-control custom-select">
             <option selected>Single Person Kayaks</option>
             <option>1 single person kayak</option>
@@ -75,7 +76,7 @@
             </select>
 			</fieldset>
 			<fieldset>
-            <legend class="uppercase">My Preferred Date & Time</legend>
+            <legend class="booking-legend">My Preferred Date & Time</legend>
 				<div class="form-group">
 					<div class="row">
 						<div class="col-6">
@@ -89,35 +90,46 @@
 			</fieldset>
 
 			<fieldset>
-            <legend class="uppercase">Please Confirm My Reservation At:</legend>
+            <legend class="booking-legend">Please Confirm My Reservation At:</legend>
 				<div class="form-group">
 					<div class="row">
 						<div class="col-6">
-							<label>First Name</label>
-							<input type="text" class="form-control" name="fname" id="fname" placeholder="First Name">
+							<label for="fname">First Name</label>
+							<input type="text" class="form-control" name="fname" id="fname" placeholder="First Name" required />
                         </div>
 						<div class="col-6">
-							<label for="last_name">Last Name</label>
-							<input type="text" class="form-control" name="last_name" id="last_name" placeholder="Last Name">
+							<label for="lname">Last Name</label>
+							<input type="text" class="form-control" name="lname" id="lname" placeholder="Last Name" required />
                         </div>
 						<div class="col-12">
 							<label for="email">E-mail Address</label>
-							<input type="email" class="form-control" name="email" id="email" placeholder="Email Address">
+							<input type="email" class="form-control" name="email" id="email" placeholder="Email Address" required />
 					    </div>
 						<div class="col-12">
 							<label for="telephone">Telephone Number</label>
-							<input type="number" class="form-control" name="telephone" id="telephone" value="telephone" placeholder="06-12345678">
+							<input type="number" class="form-control" name="telephone" id="telephone" value="telephone" placeholder="06-12345678" required />
 					    </div>
-						<div class="col-6">
-							<button type="checkbox" value="agree" checked></button><h4 id="general-conditions">I agree to the <a href="#">general conditions</a></h4>
+                        <div class="col-12">
+                        <label>Additional Comments:</label>
+                        <textarea name="comments" id="comments" rows="5" class="form-control" placeholder="I'd like to add.."></textarea>
+                        </div>
+						<div class="col-12">
+							<input type="checkbox" id="agree" name="agree" value="agree" checked /> I agree to the <a href="#">general conditions</a>
 						</div>
-                        <div class="col-6">
+                        <div class="col-12">
 							<button type="submit" class="btn btn-success btn-large">Confirm</button>
 						</div>
 					</div>
 				</div>
             </fieldset>
 		</form>
+
+<!-----------------Contact details section -->
+
+        </div>
+        <div class="col-md-10 col-lg-3" id="contact-details">
+        <h2>This is where the contact details go</h2>
+        </div>
 
 	</div>
 

@@ -37,7 +37,7 @@ of households is 2,627, of which almost 1,000 are families with one or more chil
 The city of Amersfoort has developed the Vathorst area with active use of the water in mind. Especially in the Laak area, where houses have been built with 12 hectares of available water in the canals and the
 surrounding area. Kanoverhuur Vathorst is located in the Laak area and offers easy access to the canals and the surrounding nature. 
 
-They want to be able to quickly see whether 
+The customer will want to be able to quickly see whether: 
 a) canoes are available
 b) what the pricing is
 c) what the location is and
@@ -51,9 +51,9 @@ b) have an application that enables customers to book ahead online, so that manu
 Target group
 -	Parents (usually 30+ of age) with children between age 5 -16 years looking to spend some time on the waters of Vathorst, Amersfoort (family outing)
 -	Parents that wish to celebrate their sons/daugther’s birthday party on the water
--	Adults in the age of 18-65 (with an emphasis between 25 and 55) looking to spend time individually with their partner/friend and enjoy architecture/nature
+-	Adults in the age of 18-65 (with an emphasis between 25 and 55) looking to spend time individually or with their partner/friends and enjoy architecture/nature
 -	This target group is mostly living in Amersfoort, with an emphasis on the Vathorst area and its surrounding neighbourhoods.
--	Very mobile savvy, highly educated, well paid jobs generally.  Mobile-first approach required, ipad/tablets second most important, desktop third.
+-	Very mobile savvy, highly educated, well paid jobs generally. Mobile-first approach required, ipad/tablets second most important, desktop third.
 
 
 ## Client Stories
@@ -69,60 +69,62 @@ Target group
 10. As a user, I want to know what to do when I want to cancel, so that I do not incur any costs (cancellation policy, general conditions)
 
 
-
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ## Features
 
--   The website will have four separate pages: a home page, a Canoes page, a Routes page and a Booking page that will include contact details.
--   Each page will host a logo with a link to the home page in the left top corner
--   Each page will have a top-fixed navigation bar that is outlined to the top right side. On a mobile this will be a 'hamburger' button.
--   Each page will have a footer, containing links to the social media accounts
--   Each page will feature a jumbotron picture with a "Book Now" button (except for the Booking page), enabling customers to quickly navigate to the booking page. 
-
--   On top of the hero image a jumbotron with a welcome message and a "Reservations" button for returning clients.
--   The center part of the homepage will house three clickable images (round shaped), next to each other on tablet and screen and below each other on a mobile, with two sencentes each for the respective topics "Our canoes", "Canoe trips/routes" and "Pricing". Each of the images will be clickable to their respective pages and get an effect (to be determined).
--   Below the center there will be a "reservations" button, leading to a modal with keys such as name, reservation data, canoe type (dropdown), number of canoes, phone and e-mail address. Once submitted, the resulting page will mention that we will be in touch soon.
--   Lastly a footer section, containing on the left side the (visiting) address, contact details, opening hours, a link to a download with general conditions including a cancellation policy. The right side of the footer will contain links to four socials i.e. Youtube, Pinterest, Facebook and Instagram.
--   The "Our canoes" page will provide a description and a picture of each type of recreational canoe available (single person, two-person, Canadian family canoe).
--	The "Canoe routes" will provide 3 suggested/possible routes to take including time needed to finish. Perhaps a clickable map?
--	The "Pricing" page will generate an overview of pricing per day/hour/canoe, equipment and accessories for rent, payment options, and a download to the applicable general conditions. And feature the same reservation button as the home page.
--	address, parking information and opening hours.
--	A footer with links to socials, where videos and additional photos will be posted. These will be facebook, pinterest, Youtube/Vimeo, Instagram. LinkedIn and Twitter will not be used.
--	
+1.  The website will have four separate pages: a home page, a Canoes page, a Routes page and a Booking page that will include contact details.
+2.  Each page will host a logo with a link to the home page in the left top corner
+3.  Each page will have a top-fixed navigation bar that is outlined to the top right side. On a mobile this will be a 'hamburger' button.
+4.  Each page will have a footer, containing links to the social media accounts
+5.  Each page will feature a jumbotron picture with a "Book Now" button (except for the Booking page), enabling customers to quickly navigate to the booking page. 
+6.  On top of the hero image a jumbotron with a welcome message and a "Reservations" button for returning clients.
+7.  The center part of the homepage will house three clickable images (round shaped), next to each other on tablet and screen and below each other on a mobile, with two sencentes each for the respective topics "Our canoes", "Canoe trips/routes" and "Pricing". Each of the images will be clickable to their respective pages and get an effect (to be determined).
+8.  Below the center there will be a "reservations" button, leading to a modal with keys such as name, reservation data, canoe type (dropdown), number of canoes, phone and e-mail address. Once submitted, the resulting page will mention that we will be in touch soon.
+9.  Lastly a footer section, containing on the left side the (visiting) address, contact details, opening hours, a link to a download with general conditions including a cancellation policy. The right side of the footer will contain links to four socials i.e. Youtube, Pinterest, Facebook and Instagram.
+10. The "Our canoes" page will provide a description and a picture of each type of recreational canoe available (single person, two-person, Canadian family canoe).
+11. The "Canoe routes" will provide 3 suggested/possible routes to take including time needed to finish. Perhaps a clickable map?
+12. The "Pricing" page will generate an overview of pricing per day/hour/canoe, equipment and accessories for rent, payment options, and a download to the applicable general conditions. And feature the same reservation button as the home page.
+    address, parking information and opening hours.
+13. A footer with links to socials, where videos and additional photos will be posted. These will be facebook, pinterest, Youtube/Vimeo, Instagram. LinkedIn and Twitter will not be used.
 
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 -	A home page section similar to "Our canoes" offering packages for larger family outings or birthday parties, including pricing.
--   a company outing section/page for B2B clients. For that a separate section/page is envisaged for future releases with tailor made content and information form.
--	an API to Google maps will be included enabling the customer to navigate to the destination
--	a possibility to make online reservations based on the availability of canoes per day or part of the day and pay for them immediately. The summer days may cause canoes to be fully rented out well in advance; by paying and reserving in advance they will be secure of their outing.
--	an API to a weather forecast to be featured on the homepage, enabling clients to pick the right date with suitable weather conditions.
--	A reviews section, enabling prospective clients to get a feeling of trustworthiness of our location.
--	an instructional max-3-minute video for clients to watch prior to arriving at Kanoverhuur Vathorst, enabling them to take knowledge of safe and fun paddling. The video will be hosted on Youtube or Vimeo. The purpose of the video is
+-   A company outing section/page for B2B clients. For that a separate section/page is envisaged for future releases with tailor made content and information form.
+-	An API to Google maps will be included enabling the customer to navigate to the destination
+-	A possibility to make online reservations based on the availability of canoes per day or part of the day and pay for them immediately. The summer days may cause canoes to be fully rented out well in advance; by paying and reserving in advance they will be secure of their outing.
+-	An API to a weather forecast to be featured on the homepage, enabling clients to pick the right date with suitable weather conditions.
+-	An instructional max-3-minute video for clients to watch prior to arriving at Kanoverhuur Vathorst, enabling them to take knowledge of safe and fun paddling. The video will be hosted on Youtube or Vimeo. The purpose of the video is
     to give parents the feeling that we're taking security of their children and themselves very seriously. Following the instructions will also contribute to the fun on the water and prevent injuries.
--   an instructional video on how to pass any sluice or canoe crossing
-
-In future releases, an API to Google maps will be included, as well as the possibility to make online reservations based on the availability of canoes per day or part of the day. We also foresee an API to a weather forecast to be featured on the homepage.
-We will also add a section to feature reviews and possibly a gallery, although we may wish to just simply provide a link to our socials for photos and videos. 
-We also foresee an instructional max-3-minute video for people to watch prior to arriving at Kanoverhuur Vathorst, enabling them to take knowledge of safe and paddling.
+-   An instructional video on how to pass any sluice or canoe crossing
+-   We will also add a section to feature more recent reviews and rating. 
 
 
 ## Technologies Used
-For this application, HTML5 and CSS3 were used. Additionally, to ensure a flawless mobile experience, Bootstrap4 (https://getbootstrap.com) has been used. 
-Fonts have been obtained from Google Fonts (https://fonts.google.com) and icons have been rendered from Fontawesome (https://www.fontawesome.com)
+For this application, we have used the following technologies:
+- HTML5
+- CSS3
+- Bootstrap4 (https://getbootstrap.com)
+- Fonts have been obtained from Google Fonts (https://fonts.google.com)
+- and icons have been rendered from Fontawesome (https://www.fontawesome.com)
 
-[check this part before submitting, if you have used other tools from other sources CDNJS for example, don’t forget to put that here!!]
+## Testing [section in progress]
 
-## Testing
+[IDEAS:
+- AMIRESPONSIVE
+- CSS validator W3 Consortium
+- HTML validator W3 Consortium
+
+Peer review with CI students on Slack
+Peer review LabelVier network (as agreed)
+]
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -160,17 +162,25 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- All texts in this application were made by Rien Hazeleger and reviewed by LakesideSUP prior to publishing.
 
 ### Media
-- The photos used in this site were obtained from LakesideSUP, Rien Hazeleger, Adobe Stock photos and Unsplash. See also https://www.pexels.com, https://unsplash.com, https://www.freepik.com. 
-_ the booking picture was obtained from photographer Bruce Mars and found on Unsplash https://unsplash.com/@brucemars?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge
+- The photos used in this site were obtained from LakesideSUP, Rien Hazeleger, Adobe Stock photos and Unsplash. 
+- The booking picture on the index.html page was obtained from photographer Bruce Mars and found on Unsplash https://unsplash.com/@brucemars?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge
+- The routes picture on the index.html page is a modified screenshot from http://www.kanoweb.nl/kanokaart/ which is a source to discover canoe routes in The Netherlands.
+- The hero image on the canoes.html page was obtained from Unsplash, with credits to the photographer James Coleman.
+- The hero image on the routes.html pas was made by Filip Mroz and is free to use from Unsplash.
+- The hero image on the booking.html page was obtained from OntwikkelingsBedrijf Vathorst, the picture itself was taken by Albert Dros.
+- The canoe pictures on canoes.html have all been obtained from the suppliers of the canoes, being Arjan Bloem (www.kayak.nl), Rainbow Kayaks (www.rainbowkayaks.com), Wavesport (www.wavesport.com) as well as
+  from Lakeside SUP.
+  In agreement with LakesideSUP, we aim to replace all external media with photography and videos of our own during the upcoming summer season.
 
 ### Acknowledgements
+Special credits for this project go to Anna Greaves, who's testimonial has convinced me to join the Code Institute Full Stack Software Development program and who was willing
+to share her Github repositories with me. When it was hard to figure out why things didn't work, Anna's code was an excellent resource to look at for inspiration.
+A big thanks to the Slack community hosting the fellow students, tutors and mentors for Code Institute's program; they have been great mental and technical support in getting this milestone done.
+A special thanks to my mentor Narender for making the time to go through the project with me, giving me tips and hints and supporting me throughout the development. 
 
-- I received inspiration for this project from 
-
-http://www.thecanoehire.co.uk/
 	
 
 

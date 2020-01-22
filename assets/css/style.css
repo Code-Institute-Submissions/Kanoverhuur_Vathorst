@@ -325,3 +325,17 @@ body {
     border-radius: .25em;
     max-width: 100%;
 }
+
+.input-container {
+    display: flex;
+}
+
+.icon {
+  padding: 10px;
+  background: black;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+  height: calc(1.5em + .75rem + 2px);
+  border-radius: .25rem;
+}

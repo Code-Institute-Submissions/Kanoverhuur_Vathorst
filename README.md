@@ -114,6 +114,7 @@ For this application, we have used the following technologies:
 - Bootstrap4 (https://getbootstrap.com)
 - Fonts have been obtained from Google Fonts (https://fonts.google.com)
 - and icons have been rendered from Fontawesome (https://www.fontawesome.com)
+- JavaScript - the code snippet for the slideshows on canoes.html and routes.html have been taken from https://www.w3schools.com/howto/howto_js_slideshow.asp and then modified.
 
 ## Testing [section in progress]
 

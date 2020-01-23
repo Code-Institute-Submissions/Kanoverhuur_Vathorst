@@ -47,6 +47,18 @@ body {
 .navbar-dark {
     background-color: #000;
 }
+
+/* SOLVE THIS: THE ACTIVE CLASS SHOULD CHANGE BACKGROUND TO #aa0d19
+.active, .dot:hover {
+    background-color: #aa0d19;
+}
+
+.active {
+    background-color: #aa0d19;
+}
+
+ */
+
 /* ----------------- Hero images */
 
 
@@ -273,6 +285,8 @@ body {
 .footer-socials {
     background-color: #000000;
     height: 150px;
+    padding: 0;
+    margin-top: 25px;
 }
 
 .socials {
@@ -295,6 +309,12 @@ body {
   opacity: 0.7;
     }
 
+.socials {
+    margin-bottom: 0;
+}
+
+
+
 /*-- Canoes page*/
 
 .canoe-heading {
@@ -309,6 +329,17 @@ body {
 }
 
  /*------------- Routes page*/
+
+.routes-heading {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.routes-text {
+    padding-left: 45px;
+    padding-right: 45px;
+}
 
  * {box-sizing:border-box}
 

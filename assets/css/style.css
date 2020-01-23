@@ -52,12 +52,13 @@ body {
 .active, .dot:hover {
     background-color: #aa0d19;
 }
+ */
 
-.active {
-    background-color: #aa0d19;
+.active a, dot:hover {
+    color: #aa0d19;
 }
 
- */
+
 
 /* ----------------- Hero images */
 
@@ -350,11 +351,11 @@ body {
   margin: auto;
 }
 
-/* Hide the images by default */
+/* Hide the images by default 
 .mySlides {
   display: none;
 }
-
+*/
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -423,9 +424,10 @@ body {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 2.5s;
 }
 
+/*
 @-webkit-keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
@@ -435,8 +437,7 @@ body {
   from {opacity: .4}
   to {opacity: 1}
 }
-
-
+*/
  /*------------- Booking page*/
 
 .form-control {

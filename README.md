@@ -30,9 +30,9 @@ The site targets mainly Dutch-speaking clients, but is made in English, enabling
 
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-The Vathorst district has 26,441 inhabitants (2019, source City of Amersfoort), of which 79% is in the age bracket of 5-54 years. 26% of total inhabitants is between 5 and 19 years old. The total number
+
+The Vathorst district has 26,441 inhabitants (2019, source: City of Amersfoort), of which 79% is in the age bracket of 5-54 years. 26% of total inhabitants is between 5 and 19 years old. The total number
 of households is 2,627, of which almost 1,000 are families with one or more children. 75% of the inhabitants are in the higher income groups. The target audience is a highly mobile savvy public.  
 The city of Amersfoort has developed the Vathorst area with active use of the water in mind. Especially in the Laak area, where houses have been built with 12 hectares of available water in the canals and the
 surrounding area. Kanoverhuur Vathorst is located in the Laak area and offers easy access to the canals and the surrounding nature. 

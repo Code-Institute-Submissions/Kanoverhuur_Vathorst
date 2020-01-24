@@ -459,6 +459,8 @@ body {
     margin-left: 15px;
     max-width: 100;
     border-radius: .25rem;
+    justify-content: center;
+    display: flex;
 }
 
 .contact-details {

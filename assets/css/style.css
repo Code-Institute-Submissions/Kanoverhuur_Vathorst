@@ -52,6 +52,9 @@ body {
     background-color: #000;
 }
 
+.active a {
+    color: #aa0d19;
+}
 
 /* ----------------- Hero images */
 
@@ -132,7 +135,7 @@ body {
 }
 
 #jumbotron-header {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 #jumbotron-tagline {
@@ -148,10 +151,10 @@ body {
     text-transform: uppercase;
 }
 
-.btn-book-now {
+
+.btn-danger {
     margin-top: 15px;
     background-color: #aa0d19;
-    color: #f2f2f2;
     border: 1px solid #f2f2f2;   
 }
 
@@ -201,7 +204,7 @@ body {
     width: 300px;
     border: 2px solid #000000;
     border-radius: 50%;
-    background-color: #f2f2f2;);
+    background-color: #f2f2f2;
     margin-left: 25px;
     padding: 20px;
     margin: 0 auto;
@@ -410,8 +413,10 @@ body {
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #000000;
 }
+
+
 
 /* Fading animation */
 .fade {

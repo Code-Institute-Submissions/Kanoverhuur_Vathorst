@@ -32,7 +32,8 @@ body {
 }
 
 #logo {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
 }
 
 .navbar-collapse li {
@@ -155,6 +156,7 @@ body {
 
 #jumbotron-tagline {
     font-size: 1.25rem;
+    margin-top: 1rem;
 }
 
 .jumbotron h1,h3 {
@@ -166,11 +168,24 @@ body {
     text-transform: uppercase;
 }
 
+.text-divider {
+    width: 250px;
+    height: 5px;
+    border-radius: 0.2em;
+    background-color: #aa0d19;
+    margin: 0 auto;
+}
+
 
 .btn-danger {
-    margin-top: 15px;
+    margin-top: 50px;
     background-color: #aa0d19;
-    border: 1px solid #f2f2f2;   
+    border: 1px solid #f2f2f2;
+    color: #f2f2f2 !important;
+}
+
+.btn {
+    color: #f2f2f2 !important;
 }
 
 /* ------------------ Introduction section */

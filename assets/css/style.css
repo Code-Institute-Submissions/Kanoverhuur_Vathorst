@@ -42,7 +42,7 @@ body {
 
 .navbar-collapse a {
     align-items: right;
-    color: #f2f2f2;
+    color: #000000;
 }
 
 .navlink {
@@ -50,7 +50,7 @@ body {
 }
 
 .navbar-dark {
-    background-color: #000;
+    background-color: #f2f2f2;
 }
 
 .active a {
@@ -310,7 +310,7 @@ body {
 }
 
 .footer-socials {
-    background-color: #000000;
+    background-color: #f2f2f2;
     height: 150px;
     padding: 0;
     margin-top: 25px;
@@ -322,7 +322,7 @@ body {
 
 .socials li i {
     font-size: 40px;
-    color: #f2f2f2;
+    color: #aa0d19;
     line-height: 125px;
     }
 
@@ -352,6 +352,10 @@ body {
     padding-bottom: 5px;
 }
 
+.canoe-heading i {
+    color: #aa0d19;
+}
+
 .canoe-text {
     padding-left: 45px;
     padding-right: 45px;
@@ -365,6 +369,10 @@ body {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 5px;
+}
+
+.routes-heading i {
+    color:#aa0d19;
 }
 
 .routes-text {
@@ -447,7 +455,7 @@ body {
 }
 
 .active, .dot:hover {
-  background-color: #000000;
+  background-color: #f2f2f2;
 }
 
 

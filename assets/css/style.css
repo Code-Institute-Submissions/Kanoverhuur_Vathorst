@@ -16,24 +16,16 @@ body {
 .container-wrapper-nav {
     height: 75px;
     padding: 0;
-}
-
-/*
-.navbar-brand {
-    font-size: 36px;
-} */
-
-.navbar-brand h1 {
-    color: #aa0d19;
-    font-family: "Oleo Script", cursive;
-    font-weight: 400;
-    font-size: 70px;
-    padding-left: 5px;
+    margin: 0;
 }
 
 #logo {
+    color: #aa0d19;
+    font-family: "Oleo Script", cursive;
     font-size: 3rem;
     letter-spacing: 0.1rem;
+    font-weight: 400;
+    padding-left: 5px;
 }
 
 .navbar-collapse li {
@@ -46,7 +38,7 @@ body {
 }
 
 .navlink {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .navbar-dark {
@@ -55,6 +47,10 @@ body {
 
 .active a {
     color: #aa0d19;
+}
+
+.navbar-toggler {
+    background-color: #aa0d19;
 }
 
 /* ----------------- Hero images */

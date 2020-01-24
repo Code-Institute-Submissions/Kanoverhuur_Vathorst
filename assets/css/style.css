@@ -248,8 +248,11 @@ body {
 
 .circle-image:hover {
     animation-name: circle-image-zoom;
-    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
     animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
 }
 
 

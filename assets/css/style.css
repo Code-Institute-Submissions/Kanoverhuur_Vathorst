@@ -134,7 +134,6 @@ body {
     padding: 0; 
 }
 
-
 /* --------------------- Jumbotron ---------*/
 
 .jumbotron {
@@ -331,6 +330,8 @@ body {
 /*-- Canoes page*/
 
 .canoe-heading {
+    font-size: 1.5rem;
+    color: #000;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 5px;
@@ -344,6 +345,8 @@ body {
  /*------------- Routes page*/
 
 .routes-heading {
+    font-size: 1.5rem;
+    color: #000;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 5px;

@@ -177,7 +177,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The canoe pictures on canoes.html have all been obtained from the suppliers of the canoes, being Arjan Bloem (www.kayak.nl), Rainbow Kayaks (www.rainbowkayaks.com), Wavesport (www.wavesport.com) as well as
   from Lakeside SUP.
   In agreement with LakesideSUP, we aim to replace all external media with photography and videos of our own during the upcoming summer season.
-- The photos on the routes.html in the architecture carousel have all been obtained from Adobestock.com.
+- The photos on the routes.html in the architecture carousel have all been obtained from Adobestock.com, the photos in the Arkemheen Nature route have almost all been shot by Rene Vos Fotografie (https://renevosfotografie.wordpress.com/).
+- The photo VVV_vogels has been borrowed from the local tourist agency VVV Amersfoort.  
 
 ### Acknowledgements
 Special credits for this project go to Anna Greaves, who's testimonial has convinced me to join the Code Institute Full Stack Software Development program and who was willing

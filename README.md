@@ -166,7 +166,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 - All texts in this application were made by Rien Hazeleger and reviewed by LakesideSUP prior to publishing.
 
 ### Media
-- The photos used in this site were obtained from LakesideSUP, Rien Hazeleger, Adobe Stock photos and Unsplash. 
+- The photos used in this site, except where mentioned otherwise, were obtained from LakesideSUP, Rien Hazeleger, Adobe Stock photos and Unsplash. 
 - The booking picture on the index.html page was obtained from photographer Bruce Mars and found on Unsplash https://unsplash.com/@brucemars?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge
 - The routes picture on the index.html page is a modified screenshot from http://www.kanoweb.nl/kanokaart/ which is a source to discover canoe routes in The Netherlands.
 - The hero image on the canoes.html page was obtained from Unsplash, with credits to the photographer James Coleman.
@@ -175,6 +175,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The canoe pictures on canoes.html have all been obtained from the suppliers of the canoes, being Arjan Bloem (www.kayak.nl), Rainbow Kayaks (www.rainbowkayaks.com), Wavesport (www.wavesport.com) as well as
   from Lakeside SUP.
   In agreement with LakesideSUP, we aim to replace all external media with photography and videos of our own during the upcoming summer season.
+- The photos on the routes.html in the architecture carousel have all been obtained from Adobestock.com.
 
 ### Acknowledgements
 Special credits for this project go to Anna Greaves, who's testimonial has convinced me to join the Code Institute Full Stack Software Development program and who was willing

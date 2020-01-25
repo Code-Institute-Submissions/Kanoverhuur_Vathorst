@@ -370,6 +370,10 @@ body {
     background-color: #aa0d19;
 }
 
+.carousel-indicators li {
+    background-color: #aa0d19;
+}
+
  /*------------- Routes page*/
 
 .routes-heading {

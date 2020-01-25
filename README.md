@@ -105,6 +105,8 @@ In addition, you may also use this section to discuss plans for additional featu
     to give parents the feeling that we're taking security of their children and themselves very seriously. Following the instructions will also contribute to the fun on the water and prevent injuries.
 -   An instructional video on how to pass any sluice or canoe crossing
 -   We will also add a section to feature more recent reviews and rating. 
+-   When feasible, a more sophisticated and better supported date-time picker in the booking form will be included. For now, we have used a simple HTML version which is only supported from Chrome 20.0, Opera 10.1 and 
+    Internet Explorer 13.0, but not by Firefox or Safari. We have chosen in this version for simple HMTL input type while we have no knowledge yet of javascript. 
 
 
 ## Technologies Used

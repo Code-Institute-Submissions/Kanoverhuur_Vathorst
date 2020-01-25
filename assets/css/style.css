@@ -366,6 +366,10 @@ body {
     padding-right: 45px;
 }
 
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: #aa0d19;
+}
+
  /*------------- Routes page*/
 
 .routes-heading {
@@ -384,6 +388,8 @@ body {
     padding-left: 45px;
     padding-right: 45px;
 }
+
+
 
  * {box-sizing:border-box}
 

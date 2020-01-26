@@ -139,7 +139,7 @@ body {
 }
 
 .jumbotron-overlay {
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.25);
     height: 100%;
     width: 100%;
     position: absolute;
@@ -349,6 +349,10 @@ body {
 
 /*-- Canoes page*/
 
+.canoe-column {
+    margin-top: 35px;
+}
+
 .canoe-heading {
     font-size: 1.5rem;
     color: #000;
@@ -374,7 +378,20 @@ body {
     background-color: #f2f2f2;
 }
 
+.carousel {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
  /*------------- Routes page*/
+
+.routes-top-column {
+    margin: 0 auto;
+}
+
+.routes-column {
+    margin-top: 35px;
+}
 
 .routes-heading {
     font-size: 1.5rem;

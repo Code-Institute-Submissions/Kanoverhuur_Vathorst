@@ -433,10 +433,14 @@ body {
     margin: 0 auto;
     }
 
+.booking-column {
+    color: #000;
+}
+
 .booking-legend {
     font-size: 20px;
     padding-top: 15px;
-}
+    }
 
 .booking-column {
     margin: 15px;
@@ -459,6 +463,10 @@ body {
     display: flex;
 }
 
+.input-container i {
+    background-color: #aa0d19;
+}
+
 .icon {
   padding: 10px;
   background: black;
@@ -467,6 +475,10 @@ body {
   text-align: center;
   height: calc(1.5em + .75rem + 2px);
   border-radius: .25rem;
+}
+
+.checkbox {
+    color: #000;
 }
 
 /*------------- Contact page*/

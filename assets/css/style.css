@@ -353,6 +353,22 @@ body {
     margin-top: 35px;
 }
 
+.canoe-flow-column {
+    margin-top: 35px;
+    background-color: #f2f2f2;
+    opacity: 0.8;
+}
+
+.routes-flow-column {
+    margin-top: 35px;
+    background-color: #f2f2f2;
+    opacity: 0.8;
+}
+
+.canoe-flow-column h2, .routes-flow-column h2 {
+    color: #aa0d19;
+}
+
 .canoe-heading {
     font-size: 1.5rem;
     color: #000;

@@ -217,12 +217,16 @@ body {
 
 /* ------------------ Quotes section */
 
+.grey-row {
+    background-color: #f2f2f2;
+}
+
 .quotes {
     font-family: "Open Sans", sans-serif;
-    font-size: 24px;
+    font-size: 12px;
     color: #000000;
     text-align: center;
-    background-color: #f2f2f2;
+    padding-top: 15px;
 }
 
 .quotes hr {
@@ -231,6 +235,11 @@ body {
     margin: 0 auto;
     margin-top: 10px;
     padding-bottom: 5px;
+}
+
+
+.checked {
+    color: green;
 }
 
 /* ----------------- Canoe section */

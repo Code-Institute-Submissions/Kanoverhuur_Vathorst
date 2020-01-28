@@ -190,6 +190,54 @@ body {
     color: #f2f2f2 !important;
 }
 
+.quotes-row {
+    width: 100%;
+    height: 100%;
+}
+
+.quotes-container {
+/* height: 33%;*/
+}
+/* -- CSS Transitions jumbotron */
+
+.quote-fade {
+    height: 25%;
+    margin: 0 auto;
+}
+
+
+.fadeInOut {
+  -webkit-animation-name: fadeInOut;
+  animation-name: fadeInOut;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out ;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+}
+
+@-webkit-keyframes fadeInOut {
+  from {
+    opacity: 0;
+    color: #aa0d19;
+  }
+  to {
+      opacity: 1;
+      color: #f2f2f2;
+  }
+}
+
+@keyframes fadeInOut {
+  from {
+    opacity: 0;
+    color: #aa0d19;
+  }
+  to {
+      opacity: 1;
+      color: #f2f2f2;
+  }
+}
+
 /* ------------------ Introduction section */
 
 .intro-text {

@@ -167,6 +167,11 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Content
 - All texts in this application were made by Rien Hazeleger and reviewed by LakesideSUP prior to publishing.
 
+### Code Snippets
+I'm truly grateful for the code snippet provided by https://codemyui.com/pure-css-text-revealing-animation/ enabling the
+homepage jumbotron text to become animated without the use of any JavaScript. I have copied the snippet, taken out what was 
+usable and altered the styling to fit the website. 
+
 ### Media
 - The photos used in this site, except where mentioned otherwise, were obtained from LakesideSUP, Rien Hazeleger, Adobe Stock photos and Unsplash. 
 - The booking picture on the index.html page was obtained from photographer Bruce Mars and found on Unsplash https://unsplash.com/@brucemars?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge

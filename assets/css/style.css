@@ -270,6 +270,14 @@ body {
     animation-direction: normal;
 }
 
+.button-animation {
+    display: block;
+    animation-name: reveal-button;
+    animation-iteration-count: 1;
+    animation-delay: 22s;
+    animation-direction: normal;
+}
+
 
 
 @keyframes reveal {
@@ -295,6 +303,13 @@ body {
     50% {opacity:1;}
     60% {opacity:1;}
     100% {opacity:1;width:80vw;}
+}
+
+@keyframes reveal-button {
+    0% {margin-left: -500px;}
+    20% {margin-left: -500px;}
+    35% {margin-left: 0px;}
+    100% {margin-left: 0px;}
 }
 
 /* --------- Introduction section */

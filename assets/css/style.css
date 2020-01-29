@@ -520,6 +520,7 @@ body {
 
 .canoe-flow-column h2, .routes-flow-column h2 {
     color: #aa0d19;
+    font-size: 16px;
 }
 
 .canoe-heading {
@@ -539,17 +540,24 @@ body {
     padding-right: 45px;
 }
 
+.specs-container {
+    border: 1px solid #aa0d19;
+   /* padding-top: 10px 0;*/
+   margin: 10px 45px;
+   border-radius: .3rem;
+}
+
 .canoe-info-specs {
     display: block;
     clear: both;
-    margin-bottom: 5px;
-    padding: 0 45px;
+    justify-content: center;
 }
 
 .canoe-info-specs .key {
-    width: 30%;
+    width: 40%;
     vertical-align: top;
     display: inline-block;
+    padding-top: 5px;
 }
 
 .key p {
@@ -557,13 +565,15 @@ body {
 }
 
 .canoe-info-specs .value {
-    width: 60%;
+    width: 40%;
     position: relative;
     display: inline-block;
 }
 
 .key p, .value p {
     font-size: 12px;
+    margin: 0;
+    text-align: center;
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {

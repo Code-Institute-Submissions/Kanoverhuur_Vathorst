@@ -272,6 +272,7 @@ body {
 
 .button-animation {
     display: block;
+    clear: both;
     animation-name: reveal-button;
     animation-iteration-count: 1;
     animation-delay: 22s;
@@ -536,6 +537,33 @@ body {
 .canoe-text {
     padding-left: 45px;
     padding-right: 45px;
+}
+
+.canoe-info-specs {
+    display: block;
+    clear: both;
+    margin-bottom: 5px;
+    padding: 0 45px;
+}
+
+.canoe-info-specs .key {
+    width: 30%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.key p {
+    font-weight: bold;
+}
+
+.canoe-info-specs .value {
+    width: 60%;
+    position: relative;
+    display: inline-block;
+}
+
+.key p, .value p {
+    font-size: 12px;
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {

@@ -73,7 +73,7 @@ body {
     justify-content: center;
     position: relative;
     width: 100%;
-    height: 75vh;  
+    height: 50vh;  
     padding: 0; 
 }
 
@@ -270,17 +270,6 @@ body {
     animation-direction: normal;
 }
 
-.button-animation {
-    display: block;
-    clear: both;
-    animation-name: reveal-button;
-    animation-iteration-count: 1;
-    animation-delay: 22s;
-    animation-direction: normal;
-}
-
-
-
 @keyframes reveal {
     0% {opacity:0;width:80vw;}
     10% {opacity:0.2;}
@@ -298,25 +287,22 @@ body {
 @keyframes reveal-booking {
     0% {opacity:0;width:80vw;}
     10% {opacity:0.2;}
-    20% {opacity:0.4;}
-    30% {opacity:0.6;}
-    40% {opacity:0.8;}
+    20% {opacity:0.6;}
+    30% {opacity:0.8;}
+    40% {opacity:1;}
     50% {opacity:1;}
     60% {opacity:1;}
     100% {opacity:1;width:80vw;}
 }
 
-@keyframes reveal-button {
-    0% {margin-left: -500px;}
-    20% {margin-left: -500px;}
-    35% {margin-left: 0px;}
-    100% {margin-left: 0px;}
-}
-
 /* --------- Introduction section */
 
-.intro-text {
+.intro-column {
     margin: 0 auto;
+}
+
+.intro-text {
+    text-align: center;
     max-width: 80vw;
     padding-top: 25px;
     padding-bottom: 35px;
@@ -325,13 +311,16 @@ body {
 .intro-text h2 {
     text-align: center;
     color: #000;
-    padding-bottom: 10px;
 }
 
 .intro-text p {
     font-size: 1rem;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 10px;
+}
+
+.intro-text .btn {
+    margin: 0 auto;
 }
 
 .intro-content, .intro-callout {
@@ -643,8 +632,8 @@ body {
     margin-bottom: 15px;
     }
 
-#general-conditions {
-    font-size: 16px;
+.general-conditions {
+    font-size: 12px;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -658,16 +647,16 @@ body {
 }
 
 .booking-legend {
-    font-size: 20px;
+    font-size: 16px;
     padding-top: 15px;
     }
 
 .booking-column {
     margin: 15px;
-    border: 1px solid #495057;
+    border: 1px solid #aa0d19;
     margin-left: 15px;
     max-width: 100;
-    border-radius: .25rem;
+    border-radius: .3rem;
     justify-content: center;
     display: flex;
 }

@@ -64,9 +64,9 @@ body {
 
 .hero-image {
     background: url(../images/IMG_0458.jpeg) no-repeat center center fixed;
-    -webkit-background-size: cover;
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; */
     background-size: cover;
     display: flex;
     align-items: center;
@@ -79,9 +79,9 @@ body {
 
 .markenhaven-image {
     background: url(../images/Markenhaven-Albert-Dros-1732x1080.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; */
     background-size: cover;
     display: flex;
     align-items: center;
@@ -94,9 +94,9 @@ body {
 
 .routes-background {
     background: url(../images/filip-mroz-unsplash.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; */
     background-size: cover;
     display: flex;
     align-items: center;
@@ -109,9 +109,9 @@ body {
 
 .canoes-background {
     background: url(../images/james-coleman-unsplash.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
     background-size: cover;
     display: flex;
     align-items: center;
@@ -124,9 +124,9 @@ body {
 
 .paddle-background {
     background: url(../images/louis-hansel-unsplash.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
+    /*-webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
     background-size: cover;
     display: flex;
     align-items: center;

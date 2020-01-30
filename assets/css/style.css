@@ -513,7 +513,8 @@ body {
 }
 
 .canoe-heading {
-    font-size: 1.5rem;
+    font-size: 24px;
+    font-weight: bold;
     color: #000;
     text-align: center;
     padding-top: 15px;
@@ -589,7 +590,8 @@ body {
 }
 
 .routes-heading {
-    font-size: 1.5rem;
+    font-size: 24px;
+    font-weight: bold;
     color: #000;
     text-align: center;
     padding-top: 15px;
@@ -649,6 +651,7 @@ body {
 .booking-legend {
     font-size: 16px;
     padding-top: 15px;
+    font-weight: bold;
     }
 
 .booking-column {
@@ -697,6 +700,7 @@ body {
     color: #000;
     font-size: 24px;
     text-align: left;
+    font-weight: bold;
 }
 
 .contact-column h4 {
@@ -720,6 +724,10 @@ body {
     border: 1px solid #aa0d19;
     border-radius: .3rem;
     display: block;
+}
+
+.parking-info h4 {
+    margin-bottom: 0;
 }
 
 

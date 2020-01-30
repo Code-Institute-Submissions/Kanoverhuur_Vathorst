@@ -714,6 +714,14 @@ body {
     padding: 10px;
 }
 
+.contact-form {
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid #aa0d19;
+    border-radius: .3rem;
+    display: block;
+}
+
 
 /*------------- Media Queries*/
 

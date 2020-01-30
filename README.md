@@ -106,7 +106,8 @@ In addition, you may also use this section to discuss plans for additional featu
 -   An instructional video on how to pass any sluice or canoe crossing
 -   We will also add a section to feature more recent reviews and rating. 
 -   When feasible, a more sophisticated and better supported date-time picker in the booking form will be included. For now, we have used a simple HTML version which is only supported from Chrome 20.0, Opera 10.1 and 
-    Internet Explorer 13.0, but not by Firefox or Safari. We have chosen in this version for simple HMTL input type while we have no knowledge yet of javascript. 
+    Internet Explorer 13.0, but not by Firefox or Safari. We have chosen in this version for simple HMTL input type while we have no knowledge yet of javascript. We have considered
+    the use of a polyfill (https://polyfill.io/v3/) but have chosen not to use this as it might have affected other pieces of code as well.
 
 
 ## Technologies Used
@@ -149,6 +150,8 @@ If this section grows too long, you may want to split it off into a separate fil
 
 BUGS:
 - when I changed the third column of the busines section to md-12, navigation-bar started to hide partly behind the hero-image. 
+- both forms (booking.html and contact.html) provide an error page after submitting, because the form action has not been defined yet. This will be solved in the future when the website will
+  be hosted at the provider.
 
 ## Deployment
 
@@ -170,7 +173,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Code Snippets
 I'm truly grateful for the code snippet provided by https://codemyui.com/pure-css-text-revealing-animation/ enabling the
 homepage jumbotron text to become animated without the use of any JavaScript. I have copied the snippet, taken out what was 
-usable and altered the styling to fit the website. 
+usable and altered the iterations and styling to fit the website. 
 
 ### Media
 - The photos used in this site, except where mentioned otherwise, were obtained from LakesideSUP, Rien Hazeleger, Adobe Stock photos and Unsplash. 

@@ -602,6 +602,15 @@ body {
     margin: 0 auto;
 }
 
+.carousel-item {
+    width: 750px;
+    height: 450px;
+    background-size: cover;
+    overflow: hidden;
+/*    align-items: center; */
+    justify-content: center;
+}
+
  /*------------- Routes page*/
 
 .routes-top-column {

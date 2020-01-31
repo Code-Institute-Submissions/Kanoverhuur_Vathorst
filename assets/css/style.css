@@ -755,6 +755,16 @@ body {
     display: block;
 }
 
+.parking-info,
+.contact-form {
+    min-height: 470px;
+}
+
+.opening-hours,
+.contact-info {
+    height: 215px;
+}
+
 .parking-info h4 {
     margin-bottom: 0;
 }

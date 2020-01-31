@@ -1,9 +1,5 @@
 # Kanoverhuur_Vathorst
 
-![image] https://
-
-
-
 Kanoverhuur Vathorst is a canoe rental agency in Amersfoort, The Netherlands, located in the Vathorst district. The district has gained status for its 
 architectural beauty, its central and convenient location, its closeness to the Arkemheen Polder and the abundance of water. The Vathorst district is popular with families and is
 highly attractive families moving from Amsterdam and Utrecht. Kanoverhuur Vathorst is the third company in the district offering recreational rental vehicles on the water, alongside
@@ -34,8 +30,6 @@ The site targets mainly Dutch-speaking clients, but is made in English, enabling
 
 ## UX
  
-
-
 The Vathorst district has 26,441 inhabitants (2019, source: City of Amersfoort), of which 79% is in the age bracket of 5-54 years. 26% of total inhabitants is between 5 and 19 years old. The total number
 of households is 2,627, of which almost 1,000 are families with one or more children. 75% of the inhabitants are in the higher income groups. The target audience is a highly mobile savvy public.  
 The city of Amersfoort has developed the Vathorst area with active use of the water in mind. Especially in the Laak area, where houses have been built with 12 hectares of available water in the canals and the
@@ -61,30 +55,39 @@ Target group
 
 
 ## Client Stories
-1. As a user, I want to know what the opening hours are, so that I can determine when I can rent a kayak or canoe (opening hours)
-2. As a user, I want to know which canoes & kayaks are for rent, so I can decide which and how many to rent for my purpose (canoe & kayak overview)
-3. As a user, once I know when and what to rent, I want to be able to conveniently and quickly provide my data so that I can book a canoe (booking)
-4. As a user, I want to know what I can see, so that I can determine where to go (possible routes)
-5. As a user, I want to know how much renting a kayak or canoe costs, so that I can determine what I will spend in total (pricing information)
-6. As a user, I want to know what accessories are available, so that I or my family members can have a safe time on the water (life vests, bins, etc)
-7. As a user, I want to know where I can rent a canoe and kayak, so that I can determine where to go and how to park (contact details, parking information)
-8. As a user, I want to know how others experienced this company, so that I know whether they provide for a happy and fun outing (social media)
-9. As a user, I want to know what my payment options are, so that I can use the appropriate payment method (payment options)
-10. As a user, I want to know what to do when I want to cancel, so that I do not incur any costs (cancellation policy, general conditions)
+1. As a user, I want to know what the opening hours are, so that I can determine when I can rent a kayak or canoe (opening hours) - see Contact page
+2. As a user, I want to know which canoes & kayaks are for rent, so I can decide which and how many to rent for my purpose (canoe & kayak overview) - see Canoes page
+3. As a user, once I know when and what to rent, I want to be able to conveniently and quickly provide my data so that I can book a canoe (booking) - see Booking page
+4. As a user, I want to know what I can see, so that I can determine where to go (possible routes) - see Routes page
+5. As a user, I want to know how much renting a kayak or canoe costs, so that I can determine what I will spend in total (pricing information) - see Booking page
+6. As a user, I want to know what accessories are available, so that I or my family members can have a safe time on the water (life vests, bins, etc) - will be featured in a later update
+7. As a user, I want to know where I can rent a canoe and kayak, so that I can determine where to go and how to park (contact details, parking information) - see Contact page
+8. As a user, I want to know how others experienced this company, so that I know whether they provide for a happy and fun outing (social media) - see three (example) reviews on the Home Page and links to Social Media in footer
+9. As a user, I want to know what my payment options are, so that I can use the appropriate payment method (payment options) - will be featured in later update
+10. As a user, I want to know what to do when I want to cancel, so that I do not incur any costs (cancellation policy, general conditions) - see General Conditions link in Booking page
 
+## Wireframes
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+To serve the needs described above, the following wireframes have been developed:
+
+1. Home page
+2. Canoes page
+3. Routes page
+4. Booking page
+5. Contact page
+
 
 ## Features
 
-1.  The website will have four separate pages: a home page, a Canoes page, a Routes page and a Booking page that will include contact details.
+1.  The website will have five separate pages: a Home page, a Canoes page, a Routes page a Booking page and a Contact page that will include contact details and parking information.
 2.  Each page will host a logo with a link to the home page in the left top corner
 3.  Each page will have a top-fixed navigation bar that is outlined to the top right side. On a mobile this will be a 'hamburger' button.
-4.  Each page will have a footer, containing links to the social media accounts
-5.  Each page will feature a jumbotron picture with a "Book Now" button (except for the Booking page), enabling customers to quickly navigate to the booking page. 
-6.  On top of the hero image a jumbotron with a welcome message and a "Reservations" button for returning clients.
-7.  The center part of the homepage will house three clickable images (round shaped), next to each other on tablet and screen and below each other on a mobile, with two sencentes each for the respective topics "Our canoes", "Canoe trips/routes" and "Pricing". Each of the images will be clickable to their respective pages and get an effect (to be determined).
-8.  Below the center there will be a "reservations" button, leading to a modal with keys such as name, reservation data, canoe type (dropdown), number of canoes, phone and e-mail address. Once submitted, the resulting page will mention that we will be in touch soon.
+4.  Each page will have a footer, containing links to the social media accounts and copyright marking.
+5.  The Canoes and Routes pages will feature a jumbotron picture with a "Book Now" button (except for the Booking and Contact page), enabling customers to quickly navigate to the booking page. 
+6.  Below the hero image in the jumbotron there will be an "About US" section with a welcome message and a "Book Now" button for returning clients, leading to a booking form with keys such as name, 
+    reservation data, canoe type (dropdown), number of canoes, phone and e-mail address.
+7.  The center part of the homepage will house three clickable images (round shaped), next to each other on tablet and screen and below each other on a mobile, with two sencentes 
+    each for the respective topics "Our canoes", "Canoe trips/routes" and "Pricing". Each of the images will be clickable to their respective pages and get a zoom-in effect on hover. 8.  
 9.  Lastly a footer section, containing on the left side the (visiting) address, contact details, opening hours, a link to a download with general conditions including a cancellation policy. The right side of the footer will contain links to four socials i.e. Youtube, Pinterest, Facebook and Instagram.
 10. The "Our canoes" page will provide a description and a picture of each type of recreational canoe available (single person, two-person, Canadian family canoe).
 11. The "Canoe routes" will provide 3 suggested/possible routes to take including time needed to finish. Perhaps a clickable map?
@@ -101,6 +104,8 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 -	A home page section similar to "Our canoes" offering packages for larger family outings or birthday parties, including pricing.
+-   A page detailing the additional gear to rent, such as safety vests, containers, etc. 
+-   A page detailing payment options: this will be included once the booking can be made automatically and paid for immediately.
 -   A company outing section/page for B2B clients. For that a separate section/page is envisaged for future releases with tailor made content and information form.
 -	An API to Google maps will be included enabling the customer to navigate to the destination
 -	A possibility to make online reservations based on the availability of canoes per day or part of the day and pay for them immediately. The summer days may cause canoes to be fully rented out well in advance; by paying and reserving in advance they will be secure of their outing.
@@ -121,7 +126,8 @@ For this application, we have used the following technologies:
 - Bootstrap4 (https://getbootstrap.com)
 - Fonts have been obtained from Google Fonts (https://fonts.google.com)
 - and icons have been rendered from Fontawesome (https://www.fontawesome.com)
-- JavaScript - the code snippet for the slideshows on canoes.html and routes.html have been taken from https://www.w3schools.com/howto/howto_js_slideshow.asp and then modified.
+- A special mention on the pictures carousels on the canoes.html and routes.html pages, for which the code has been taken from https://www.w3schools.com/bootstrap/bootstrap_carousel.asp and 
+  consequently altered to fit the needs of this website. 
 
 ## Testing
 

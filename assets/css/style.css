@@ -583,12 +583,18 @@ body {
     text-align: center;
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
+/* .carousel-control-next-icon, .carousel-control-prev-icon {
     background-color: #aa0d19;
-}
+} */
 
 .carousel-indicators li {
-    background-color: #f2f2f2;
+    background-color: #959ead;
+}
+
+#singleKayakCarousel .active,
+#dualKayakCarousel .active,
+#canadianCanoeCarousel .active {
+    background-color: #aa0d19;
 }
 
 .carousel {

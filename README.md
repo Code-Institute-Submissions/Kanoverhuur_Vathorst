@@ -1,5 +1,9 @@
 # Kanoverhuur_Vathorst
 
+![image] https://
+
+
+
 Kanoverhuur Vathorst is a canoe rental agency in Amersfoort, The Netherlands, located in the Vathorst district. The district has gained status for its 
 architectural beauty, its central and convenient location, its closeness to the Arkemheen Polder and the abundance of water. The Vathorst district is popular with families and is
 highly attractive families moving from Amsterdam and Utrecht. Kanoverhuur Vathorst is the third company in the district offering recreational rental vehicles on the water, alongside
@@ -119,20 +123,18 @@ For this application, we have used the following technologies:
 - and icons have been rendered from Fontawesome (https://www.fontawesome.com)
 - JavaScript - the code snippet for the slideshows on canoes.html and routes.html have been taken from https://www.w3schools.com/howto/howto_js_slideshow.asp and then modified.
 
-## Testing [section in progress]
+## Testing
 
-[IDEAS:
-- AMIRESPONSIVE
-- CSS validator W3 Consortium
-- HTML validator W3 Consortium
+This website has been made using a MacBook Pro 15inch and an iMac 27inch, and tested throughout the development process in Google Chrome 
+Version 79.0.3945.130 (Official build) (64-bits). For testing, the site has been checked on Safari 13.05, Opera Version:66.0.3515.44 and Firefox 72.0.2 (64-bits) as well as 
+Internet Explorer {version!} on a Windows laptop. 
 
-Peer review with CI students on Slack
-Peer review LabelVier network (as agreed)
-]
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+Testing has been carried out using the following methods:
+1. HTML code has been validated through the W3 Consortium's HTML validator https://validator.w3.org/#validate_by_input, and subsequently improved. 
+2. CSS has been validated by running it in the Jigsaw CSS validator of the same consortium https://jigsaw.w3.org/css-validator/#validate_by_input, and subsequently improved. 
+3. Google Chrome's DevTools has been used to test responsiveness and check for bugs
+4. The site has also been run through http://ami.responsivedesign.is/ to check for errors and responsiveness
+5. Peers of the Code Institute Full Stack Software Development have been requested to provide their views and use their browsers for feedback.
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
@@ -154,15 +156,25 @@ BUGS:
   be hosted at the provider.
 
 ## Deployment
+This project was developed using Gitpod, commmitted and pushed to Github and deployed on Github Pages. 
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+To enable this, I have taken the following steps:
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+1. Log into GitHub and go to https://github.com/RienHazeleger
+2. Click on "repositories" and select Kanoverhuur_Vathorst
+3. Select "Settings" and scroll down to Github Pages
+4. Under the heading "Source", I have selected the Master Branch
+5. The website was then deployed at https://rienhazeleger.github.io/Kanoverhuur_Vathorst/
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+If you want to run this code locally, take the following steps:
+
+1. Go to https://github.com/RienHazeleger/Kanoverhuur_Vathorst
+2. Select the green button "Clone or download"
+3. Copy the provided link given under "Clone with HTTPS"
+4. Open the Terminal
+5. Change the current working directory to the directory where you want the code to be cloned
+6. Type git clone and add the provided link given in step 3.
+7. Press enter and your local clone will be made.
 
 
 ## Credits
@@ -189,8 +201,6 @@ usable and altered the iterations and styling to fit the website.
 - The photo VVV_vogels has been borrowed from the local tourist agency VVV Amersfoort.  
 
 ### Acknowledgements
-Special credits for this project go to Anna Greaves, who's testimonial has convinced me to join the Code Institute Full Stack Software Development program and who was willing
-to share her Github repositories with me. When it was hard to figure out why things didn't work, Anna's code was an excellent resource to look at for inspiration.
 A big thanks to the Slack community hosting the fellow students, tutors and mentors for Code Institute's program; they have been great mental and technical support in getting this milestone done.
 A special thanks to my mentor Narender for making the time to go through the project with me, giving me tips and hints and supporting me throughout the development. 
 

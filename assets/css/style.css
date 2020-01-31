@@ -192,6 +192,21 @@ body {
 
 /* --------- CSS Animation Section */
 
+.animation-heading, .animation-heading-booking {
+    font-size: 8vmin;
+    }
+
+.animation-text-zero {
+    font-size: 48px;
+    color: #f2f2f2;
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+    white-space: normal;
+    width: 0px;
+    animation: reveal 3s 1;
+}
+
 .animation-text-one {
     font-size: 48px;
     color: #f2f2f2;
@@ -201,12 +216,8 @@ body {
     white-space: normal;
     width: 0px;
     animation: reveal 2s 1;
+    animation-delay: 3.5s;
 }
-
-
-.animation-heading, .animation-heading-booking {
-    font-size: 8vmin;
-    }
 
 .animation-text-two {
     font-size: 48px;
@@ -217,7 +228,7 @@ body {
     white-space: normal;
     width: 0px;
     animation: reveal 2s 1;
-    animation-delay: 2.5s;
+    animation-delay: 6s;
 }
 .animation-text-three {
     font-size: 48px;
@@ -228,7 +239,7 @@ body {
     white-space: normal;
     width: 0px;
     animation: reveal 2.5s 1;
-    animation-delay: 5s;
+    animation-delay: 9s;
 }
 
 .animation-text-four {
@@ -240,7 +251,7 @@ body {
     white-space: normal;
     width: 0px;
     animation: reveal 2.5s 1;
-    animation-delay: 8s;
+    animation-delay: 12s;
 }
 
 .animation-text-five {
@@ -252,7 +263,7 @@ body {
     white-space: normal;
     width: 0px;
     animation: reveal 2.5s 1;
-    animation-delay: 11s;
+    animation-delay: 15s;
 }
 
 .animation-text-six {
@@ -266,9 +277,10 @@ body {
     animation-name: reveal-booking;
     animation-duration: 6s;
     animation-iteration-count: 1;
-    animation-delay: 14s;
+    animation-delay: 18s;
     animation-direction: normal;
 }
+
 
 @keyframes reveal {
     0% {opacity:0;width:80vw;}
@@ -473,9 +485,14 @@ body {
     padding: 5%;
      }
 
+.socials li a {
+    text-decoration: none;
+}
+
 .fab:hover {
   opacity: 0.7;
     }
+
 
 .socials {
     margin-bottom: 0;

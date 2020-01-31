@@ -602,6 +602,12 @@ body {
     margin: 0 auto;
 }
 
+.carousel-item {
+    width: 750px;
+    height: 450px;
+}
+
+
  /*------------- Routes page*/
 
 .routes-top-column {

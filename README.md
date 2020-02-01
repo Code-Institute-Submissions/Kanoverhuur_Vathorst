@@ -1,6 +1,6 @@
 # Kanoverhuur_Vathorst
 
-![screenshot Kanoverhuur Vathorst](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/tree/master/assets/wireframes/screenshot.jpg)
+![screenshot Kanoverhuur Vathorst](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/assets/wireframes/screenshot.jpeg)
 
 Kanoverhuur Vathorst is a canoe rental agency in Amersfoort, The Netherlands, located in the Vathorst district. The district has gained status for its 
 architectural beauty, its central and convenient location, its closeness to the Arkemheen Polder and the abundance of water. The Vathorst district is popular with families and is

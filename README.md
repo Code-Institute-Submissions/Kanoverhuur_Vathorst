@@ -131,10 +131,10 @@ To serve the needs described above, the following wireframes have been developed
 For this application, we have used the following technologies:
 - HTML5
 - CSS3
-- Bootstrap4 (https://getbootstrap.com)
-- Fonts have been obtained from Google Fonts (https://fonts.google.com)
-- and icons have been rendered from Fontawesome (https://www.fontawesome.com)
-- A special mention on the pictures carousels on the canoes.html and routes.html pages, for which the code has been taken from https://www.w3schools.com/bootstrap/bootstrap_carousel.asp and 
+- [Bootstrap4](https://getbootstrap.com)
+- Fonts have been obtained from [Google Fonts](https://fonts.google.com)
+- and icons have been rendered from [Fontawesome](https://www.fontawesome.com)
+- A special mention on the pictures carousels on the Canoes and Routes pages, for which the code has been taken from [W3Schools.com](https://www.w3schools.com/bootstrap/bootstrap_carousel.asp) and 
   consequently altered to fit the needs of this website. 
 
 ## Testing
@@ -144,10 +144,10 @@ Version 79.0.3945.130 (Official build) (64-bits). For testing, the site has been
 Internet Explorer {version!} on a Windows laptop. 
 
 Testing has been carried out using the following methods:
-1. HTML code has been validated through the W3 Consortium's HTML validator https://validator.w3.org/#validate_by_input, and subsequently improved. 
-2. CSS has been validated by running it in the Jigsaw CSS validator of the same consortium https://jigsaw.w3.org/css-validator/#validate_by_input, and subsequently improved. 
+1. HTML code has been validated through the [W3 Consortium's HTML validator](https://validator.w3.org/#validate_by_input) and subsequently improved. 
+2. CSS has been validated by running it in the [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_input) of the same consortium, and subsequently improved. 
 3. Google Chrome's DevTools has been used to test responsiveness and check for bugs
-4. The site has also been run through http://ami.responsivedesign.is/ to check for errors and responsiveness
+4. The site has also been run through [Justin Avery's website](http://ami.responsivedesign.is/) to check for errors and responsiveness. A screenshot of that is provided at the top of this document.
 5. Peers of the Code Institute Full Stack Software Development have been requested to provide their views and use their browsers for feedback.
 
 ### Scenario testing
@@ -213,7 +213,7 @@ To enable this, I have taken the following steps:
 
 If you want to run this code locally, take the following steps:
 
-1. Go to https://github.com/RienHazeleger/Kanoverhuur_Vathorst
+1. Go to the repository for [Kanoverhuur Vathorst](https://github.com/RienHazeleger/Kanoverhuur_Vathorst)
 2. Select the green button "Clone or download"
 3. Copy the provided link given under "Clone with HTTPS"
 4. Open the Terminal
@@ -228,21 +228,21 @@ If you want to run this code locally, take the following steps:
 - All texts in this application were made by Rien Hazeleger and reviewed by LakesideSUP prior to publishing.
 
 ### Code Snippets
-I'm truly grateful for the code snippet provided by https://codemyui.com/pure-css-text-revealing-animation/ enabling the
+I'm truly grateful for the code snippet provided by [CodeMyUI](https://codemyui.com/pure-css-text-revealing-animation/) enabling the
 homepage jumbotron text to become animated without the use of any JavaScript. I have copied the snippet, taken out what was 
 usable and altered the iterations and styling to fit the website. 
 
 ### Media
-- The photos used in this site, except where mentioned otherwise, were obtained from LakesideSUP, Rien Hazeleger, Adobe Stock photos and Unsplash. 
-- The booking picture on the index.html page was obtained from photographer Bruce Mars and found on Unsplash https://unsplash.com/@brucemars?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge
-- The routes picture on the index.html page is a modified screenshot from http://www.kanoweb.nl/kanokaart/ which is a source to discover canoe routes in The Netherlands.
-- The hero image on the canoes.html page was obtained from Unsplash, with credits to the photographer James Coleman.
-- The hero image on the routes.html pas was made by Filip Mroz and is free to use from Unsplash.
-- The hero image on the booking.html page was obtained from OntwikkelingsBedrijf Vathorst, the picture itself was taken by Albert Dros.
-- The canoe pictures on canoes.html have all been obtained from the suppliers of the canoes, being Arjan Bloem (www.kayak.nl), Rainbow Kayaks (www.rainbowkayaks.com), Wavesport (www.wavesport.com) as well as
-  from Lakeside SUP.
-  In agreement with LakesideSUP, we aim to replace all external media with photography and videos of our own during the upcoming summer season.
-- The photos on the routes.html in the architecture carousel have all been obtained from Adobestock.com, the photos in the Arkemheen Nature route have almost all been shot by Rene Vos Fotografie (https://renevosfotografie.wordpress.com/).
+- The photos used in this site, except where mentioned otherwise, were obtained from LakesideSUP and myself. Where specifically mentioned, others supplied the photos.
+- The booking picture on the Home page was obtained from photographer Bruce Mars and found on [Unsplash](https://unsplash.com/@brucemars?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge)
+- The routes picture on the Home page is a modified screenshot from [Kanoweb](http://www.kanoweb.nl/kanokaart/) which is a source to discover canoe routes in The Netherlands.
+- The hero image on the Canoes page was obtained from Unsplash, with credits to the photographer James Coleman.
+- The hero image on the Routes page pas was made by Filip Mroz and is free to use from Unsplash.
+- The hero image on the Contact page was obtained from OntwikkelingsBedrijf Vathorst, the picture itself was taken by Albert Dros.
+- The canoe pictures on Canoes have all been obtained from the suppliers of the canoes, being [Kanocentrum Arjan Bloem](https://www.kajak.nl/), [Rainbow Kayaks](https://rainbowkayaks.com/gb/), [Wavesport](https://www.wavesport.com/en) as well as
+  from [Lakeside SUP](https://lakesidesup.nl/).
+  In agreement with LakesideSUP, we aim to replace all external media with photography and videos of their own during the upcoming summer season.
+- The photos on the routes.html in the architecture carousel have all been obtained from Adobestock.com, the photos in the Arkemheen Nature route have almost all been shot by [Rene Vos Fotografie](https://renevosfotografie.wordpress.com/).
 - The photo VVV_vogels has been borrowed from the local tourist agency VVV Amersfoort.  
 
 ### Acknowledgements

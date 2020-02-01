@@ -606,11 +606,14 @@ body {
 }
 
 .carousel-item {
-/*    width: 750px;
-    height: 450px;*/
     background-position: center;
+    background-clip: content-box;
 }
 
+.carousel-item img {
+    width: 468px;
+    height: 468px;
+    }
 
  /*------------- Routes page*/
 

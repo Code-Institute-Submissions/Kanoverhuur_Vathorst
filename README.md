@@ -215,7 +215,7 @@ BUGS:
 - following a peer review, three of the four social icons showed an underline when hovered. Removed by adding text-decoration:none to those links
 - Pages with large hero-images took a long time to load: all pictures have been resized to max 300kb to enable quick loading.
 - following an attempt to update the canoes carousel, the carousel started to show background colors on the next/forward buttons and showing the pictures outside of the div-element. This has been solved by
-  uncommenting the width/heigth and centering the background-position.
+  centering the background-position and defining the size of the image container.
 
 ## Deployment
 This project was developed using Gitpod, commmitted and pushed to Github and deployed on Github Pages. 

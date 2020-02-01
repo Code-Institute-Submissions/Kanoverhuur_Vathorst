@@ -1,10 +1,10 @@
-# Kanoverhuur_Vathorst
+# Kanoverhuur Vathorst
 
 ![screenshot Kanoverhuur Vathorst](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/assets/wireframes/screenshot.jpeg)
 
 Kanoverhuur Vathorst is a canoe rental agency in Amersfoort, The Netherlands, located in the Vathorst district. The district has gained status for its 
 architectural beauty, its central and convenient location, its closeness to the Arkemheen Polder and the abundance of water. The Vathorst district is popular with families and is
-highly attractive families moving from Amsterdam and Utrecht. Kanoverhuur Vathorst is the third company in the district offering recreational rental vehicles on the water, alongside
+highly attractive to families moving from Amsterdam and Utrecht. Kanoverhuur Vathorst is the third company in the district offering recreational rental vehicles on the water, alongside
 Sloepverhuur Vathorst (electric dinghys) and Lakeside SUP (stand up paddle board school and rental). Kanoverhuur Vathorst is a second activity of the latter.  
 
 This website aims to inform inhabitants of the Vathorst district of: 
@@ -24,7 +24,7 @@ Commercially, Kanoverhuur Vathorst aims to
 - and increase its return on investment on the canoes for the year 2020 and beyond.
 
 This is primarily a B2C application, although companies occasionally may reach out for a company outing (B2B). For that a separate section/page is envisaged for future releases with tailor made content.
-The footer will show the links to socials (not present yet).
+The footer will show the links to socials (not active yet).
 
 Although being a second activity of Lakeside SUP, Kanoverhuur Vathorst will use its own name and branding and chooses to use colors that are different to the colors of Lakeside SUP.
 
@@ -37,11 +37,11 @@ of households is 2,627, of which almost 1,000 are families with one or more chil
 The city of Amersfoort has developed the Vathorst area with active use of the water in mind. Especially in the Laak area, where houses have been built with 12 hectares of available water in the canals and the
 surrounding area. Kanoverhuur Vathorst is located in the Laak area and offers easy access to the canals and the surrounding nature. 
 
-The customer will want to be able to quickly see whether: 
-a) canoes are available
+The customer will want to quickly: 
+a) understand which types of canoes are available
 b) what the pricing is
 c) what the location is and
-d) they want a fast, simple and convenient way to book and pay ahead (for themselves or for their kids).
+d) involve a fast, simple and convenient way to book and pay ahead (for themselves or for their kids).
 e) get a feel that this is a trustworthy company. From LakesideSUP clients, we have heard that a professional website helps to attract clients from outside the region and even from abroad. 
 
 Kanoverhuur Vathorst wants to:
@@ -84,25 +84,31 @@ To serve the needs described above, the following wireframes have been developed
 1.  The website will have five separate pages: a Home page, a Canoes page, a Routes page a Booking page and a Contact page that will include contact details and parking information.
 2.  Each page will host a logo with a link to the home page in the left top corner
 3.  Each page will have a top-fixed navigation bar that is outlined to the top right side. On a mobile this will be a 'hamburger' button.
-4.  Each page will have a footer, containing links to the social media accounts and copyright marking.
+4.  Each page will have a footer, containing links to the social media accounts and copyright marking. where videos and additional photos will be posted. These will be facebook, pinterest, Youtube and Instagram. LinkedIn and Twitter will not be used.
 5.  The Canoes and Routes pages will feature a jumbotron picture with a "Book Now" button (except for the Booking and Contact page), enabling customers to quickly navigate to the booking page. 
 6.  Below the hero image in the jumbotron there will be an "About US" section with a welcome message and a "Book Now" button for returning clients, leading to a booking form with keys such as name, 
-    reservation data, canoe type (dropdown), number of canoes, phone and e-mail address.
+    reservation data, canoe type (dropdown), number of canoes, phone and e-mail address. Below this on larger screens, one-sentence reviews will be featured.
 7.  The center part of the homepage will house three clickable images (round shaped), next to each other on tablet and screen and below each other on a mobile, with two sencentes 
     each for the respective topics "Our canoes", "Canoe trips/routes" and "Pricing". Each of the images will be clickable to their respective pages and get a zoom-in effect on hover. 8.  
-9.  Lastly a footer section, containing on the left side the (visiting) address, contact details, opening hours, a link to a download with general conditions including a cancellation policy. The right side of the footer will contain links to four socials i.e. Youtube, Pinterest, Facebook and Instagram.
-10. The "Our canoes" page will provide a description and a picture of each type of recreational canoe available (single person, two-person, Canadian family canoe).
-11. The "Canoe routes" will provide 3 suggested/possible routes to take including time needed to finish. Perhaps a clickable map?
-12. The "Pricing" page will generate an overview of pricing per day/hour/canoe, equipment and accessories for rent, payment options, and a download to the applicable general conditions. And feature the same reservation button as the home page.
-    address, parking information and opening hours.
-13. A footer with links to socials, where videos and additional photos will be posted. These will be facebook, pinterest, Youtube/Vimeo, Instagram. LinkedIn and Twitter will not be used.
+8.  The "Our canoes" page will provide a description, specs and pictures of each type of recreational canoe available (single person, two-person, Canadian family canoe).
+9.  The "Canoe routes" will provide 2 suggested/possible routes to take including a download that shows the route on a map plus a link to the booking site.
+10. The "Booking" page will generate an overview of pricing per day/hour/canoe, a download to the applicable general conditions, and a form to request a canoe for a certain date/time.
+11. The "Contact" page will deliver information on location, parking information, travel options and opening hours and provide a simple contact form.
 
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Feature 1 - allows users to inform themselves of the possibilities by navigating through the website
+- Feature 2 - allows users to return to the homepage by clicking on the logo
+- Feature 3 - allows uers to navigate through the site quickly by clicking on the topic of choice
+- Feature 4 - allows users to stay updated on events and pictures taken, as well as to inform on what others say about Kanoverhuur Vathorst by clicking on the socials icons
+- Feature 5 - allows users to quickly go to the booking form when landing on the page by clicking on the "Book Now" button
+- Feature 6 - allows users to inform themselves of what Kanoverhuur Vathorst does in just a couple of sentences, by reading the introduction and the reviews featured
+- Feature 7 - allows users to quickly navigate to the pages about canoes, routes or booking by clicking the images
+- Feature 8 - enables users to get more information about the types of canoes and kayaks for rent, their max load capacity as well as pictures.
+- Feature 9 - enables users to be informed of possible routes to take, by clicking on images that give an impression of what to see and clicking on a download link.
+- Feature 10 - enables users to obtain information about pricing and to book canoes/kayaks, by filling out a form. It also enables users to be informed of the general conditions by clicking on the download link.
+- Feature 11 - allows users to inform themselves of location, navigation and opening hours, and to send a message with a question or remark by filling out the form.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 -	A home page section similar to "Our canoes" offering packages for larger family outings or birthday parties, including pricing.
@@ -144,24 +150,55 @@ Testing has been carried out using the following methods:
 4. The site has also been run through http://ami.responsivedesign.is/ to check for errors and responsiveness
 5. Peers of the Code Institute Full Stack Software Development have been requested to provide their views and use their browsers for feedback.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+### Scenario testing
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
+1. All pages:
+    1. Click each link of the navbar and check whether they lead to the correct page
+    2. Click each link of the footer social icons and check whether they lead to the correct website in a separate browser Windows
+    3. Click on the logo and check whether it leads to the homepage within the site
+
+2. Home page:
+    1. Reload the home page and check whether the animated text on top of the hero-image displays 
+    2. Click the "Book Now" and check whether it leads to the Booking page
+    3. Click on the Canoes, Routes and Booking circles and check whether they lead to the correct pages. Also check whether the animation works.
+
+3. Canoes page:
+    1. Click the "Book Now" and check whether it leads to the Booking page
+    2. Check whether the carousel works automatically, and whether the progress bars are clickable and lead to the next image
+    3. Check the links in the bottom to the booking and the routes page work correctly
+
+4. Routes page:
+    1. Click the "Book Now" and check whether it leads to the Booking page
+    2. Check whether the carousels work automatically, and whether the progress bars are clickable and lead to the next image
+    3. Check whether the downloads open correctly in a separate tab and display the correct PDF
+    3. Check whether the link in the bottom to the booking page works correctly
+
+5. Booking page:
+    1. Try to select the type of canoe and the number of desired hours
+    2. Try to select the date and time period for reservation and see whether the calender appears
+    2. Submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+    4. Try to submit the form with all inputs valid.
+    5. Click the downloadable General Conditions and verify that the correct PDF appears in a separate tab
+
+6. Contact page:
+    1. Submit the empty form and verify that an error message about the required fields appears
+    2. Try to submit the form without a name and verify that a relevant error message appears
+    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    4. Try to submit the form without a comment and verify that a relevant error message appears
+    4. Try to submit the form with all inputs valid.
+
+
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 BUGS:
 - when I changed the third column of the busines section to md-12, navigation-bar started to hide partly behind the hero-image. 
 - both forms (booking.html and contact.html) provide an error page after submitting, because the form action has not been defined yet. This will be solved in the future when the website will
   be hosted at the provider.
+- following a peer review, three of the four social icons showed an underline when hovered. Removed by adding text-decoration:none to those links
+- Pages with large hero-images took a long time to load: all pictures have been resized to max 300kb to enable quick loading.
+- following an attempt to update the canoes carousel, the carousel started to show background colors on the next/forward buttons and showing the pictures outside of the div-element MUST BE UPDATED FOLLOWING TEST!!
 
 ## Deployment
 This project was developed using Gitpod, commmitted and pushed to Github and deployed on Github Pages. 
@@ -210,7 +247,7 @@ usable and altered the iterations and styling to fit the website.
 
 ### Acknowledgements
 A big thanks to the Slack community hosting the fellow students, tutors and mentors for Code Institute's program; they have been great mental and technical support in getting this milestone done.
-A special thanks to my mentor Narender for making the time to go through the project with me, giving me tips and hints and supporting me throughout the development. 
+A special thanks to my mentor Narender Singh for making the time to go through the project with me, giving me tips and hints and supporting me throughout the development. 
 
 	
 

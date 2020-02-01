@@ -1,6 +1,20 @@
+![screenshot Kanoverhuur Vathorst](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/assets/wireframes/screenshot.jpeg)
+
 # Kanoverhuur Vathorst
 
-![screenshot Kanoverhuur Vathorst](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/assets/wireframes/screenshot.jpeg)
+# Contents
+[Introduction](#Introduction)
+[UX](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#ux)
+[User Stories](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#user-stories)
+[Wireframes](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.mdwWireframes)
+[Features](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#features)
+
+
+
+
+
+
+# Introduction
 
 Kanoverhuur Vathorst is a canoe rental agency in Amersfoort, The Netherlands, located in the Vathorst district. The district has gained status for its 
 architectural beauty, its central and convenient location, its closeness to the Arkemheen Polder and the abundance of water. The Vathorst district is popular with families and is
@@ -56,7 +70,7 @@ Target group
 -	Very mobile savvy, highly educated, well paid jobs generally. Mobile-first approach required, ipad/tablets second most important, desktop third.
 
 
-## Client Stories
+## User Stories
 1. As a user, I want to know what the opening hours are, so that I can determine when I can rent a kayak or canoe (opening hours) - see Contact page
 2. As a user, I want to know which canoes & kayaks are for rent, so I can decide which and how many to rent for my purpose (canoe & kayak overview) - see Canoes page
 3. As a user, once I know when and what to rent, I want to be able to conveniently and quickly provide my data so that I can book a canoe (booking) - see Booking page

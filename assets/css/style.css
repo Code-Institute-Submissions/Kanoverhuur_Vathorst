@@ -406,16 +406,19 @@ body {
     animation-duration: 2s;
     animation-fill-mode: forwards;
     animation-direction: alternate;
-    animation-iteration-count: 2;
+    animation-iteration-count: 1;
 }
 
 
 @keyframes circle-image-zoom {
-    from {
+    0% {
         transform: scale(1);
     }
-    to {
+    50% {
         transform: scale(1.165);  
+    }
+    100% {
+        tranform: scale(1);
     }
 }
 
@@ -603,8 +606,9 @@ body {
 }
 
 .carousel-item {
-    width: 750px;
-    height: 450px;
+/*    width: 750px;
+    height: 450px;*/
+    background-position: center;
 }
 
 

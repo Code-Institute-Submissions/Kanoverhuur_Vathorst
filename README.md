@@ -1,5 +1,7 @@
 # Kanoverhuur_Vathorst
 
+![screenshot Kanoverhuur Vathorst](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/tree/master/assets/wireframes/screenshot.jpg)
+
 Kanoverhuur Vathorst is a canoe rental agency in Amersfoort, The Netherlands, located in the Vathorst district. The district has gained status for its 
 architectural beauty, its central and convenient location, its closeness to the Arkemheen Polder and the abundance of water. The Vathorst district is popular with families and is
 highly attractive families moving from Amsterdam and Utrecht. Kanoverhuur Vathorst is the third company in the district offering recreational rental vehicles on the water, alongside
@@ -70,11 +72,11 @@ Target group
 
 To serve the needs described above, the following wireframes have been developed:
 
-1. Home page
-2. Canoes page
-3. Routes page
-4. Booking page
-5. Contact page
+1. [Home Page](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/tree/master/assets/wireframes/Homepage.pdf)
+2. [Canoes page](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/assets/wireframes/Canoes.pdf)
+3. [Routes page](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/assets/wireframes/Routes.pdf)
+4. [Booking page](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/assets/wireframes/Booking.pdf)
+5. [Contact page](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/assets/wireframes/Contact.pdf)
 
 
 ## Features

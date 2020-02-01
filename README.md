@@ -6,7 +6,7 @@
    [Introduction](#Introduction)  
    [UX](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#ux)  
    [User Stories](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#user-stories)  
-   [Wireframes](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.mdwWireframes)  
+   [Wireframes](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#wireframes)  
    [Features](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#features)  
    [Existing Features](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#existing-features)  
    [Features Left to Implement](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#features-left-to-implement)  

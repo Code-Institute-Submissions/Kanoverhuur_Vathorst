@@ -63,7 +63,7 @@ body {
 
 
 .hero-image {
-    background: url(../images/IMG_0458.jpeg) no-repeat center center fixed;
+    background: url(../images/IMG_0458_449.jpg) no-repeat center center fixed;
     /* -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover; */
@@ -93,7 +93,7 @@ body {
 }
 
 .routes-background {
-    background: url(../images/filip-mroz-unsplash.jpg) no-repeat center center fixed;
+    background: url(../images/filip-mroz-unsplash293.jpg) no-repeat center center fixed;
     /* -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover; */
@@ -108,7 +108,7 @@ body {
 }
 
 .canoes-background {
-    background: url(../images/james-coleman-unsplash.jpg) no-repeat center center fixed;
+    background: url(../images/james-coleman-unsplash309.jpg) no-repeat center center fixed;
     /* -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;*/
@@ -123,7 +123,7 @@ body {
 }
 
 .paddle-background {
-    background: url(../images/louis-hansel-unsplash.jpg) no-repeat center center fixed;
+    background: url(../images/louis-hansel-unsplash303.jpg) no-repeat center center fixed;
     /*-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;*/
@@ -610,11 +610,12 @@ body {
     background-clip: content-box;
 }
 
+/*
 .carousel-item img {
     width: 468px;
     height: 468px;
     }
-
+*/
  /*------------- Routes page*/
 
 .routes-top-column {

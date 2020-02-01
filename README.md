@@ -3,18 +3,18 @@
 # Kanoverhuur Vathorst
 
 # Contents
-...[Introduction](#Introduction)
-...[UX](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#ux)
-...[User Stories](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#user-stories)
-...[Wireframes](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.mdwWireframes)
-...[Features](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#features)
-...[Existing Features](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#existing-features)
-...[Features Left to Implement](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#features-left-to-implement)
-...[Technologies Used](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#technologies-used)
-...[Testing](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#testing)
-...[Scenario Testing](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#scenario-testing)
-...[Deployment](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#deployment)
-...[Credits](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#credits)
+   [Introduction](#Introduction)  
+   [UX](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#ux)  
+   [User Stories](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#user-stories)  
+   [Wireframes](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.mdwWireframes)  
+   [Features](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#features)  
+   [Existing Features](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#existing-features)  
+   [Features Left to Implement](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#features-left-to-implement)  
+   [Technologies Used](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#technologies-used)  
+   [Testing](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#testing)  
+   [Scenario Testing](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#scenario-testing)  
+   [Deployment](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#deployment)  
+   [Credits](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/README.md#credits)  
 
 # Introduction
 

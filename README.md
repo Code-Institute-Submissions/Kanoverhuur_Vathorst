@@ -155,9 +155,9 @@ For this application, we have used the following technologies:
 
 ## Testing
 
-This website has been made using a MacBook Pro 15inch and an iMac 27inch, and tested throughout the development process in Google Chrome 
-Version 79.0.3945.130 (Official build) (64-bits). For testing, the site has been checked on Safari 13.05, Opera Version:66.0.3515.44 and Firefox 72.0.2 (64-bits) as well as 
-Internet Explorer {version!} on a Windows laptop. 
+This website has been made using a 2015 MacBook Pro 15inch and a 2012 iMac 27inch, and tested throughout the development process in Google Chrome 
+(version 79.0.3945.130, 64-bits). For testing, the site has been checked on Safari (13.05), Opera (66.0.3515.44) and Firefox (72.0.2, 64-bits) as well as 
+Microsoft Edge (version 44.18362.449.0) on an HP Elitebook with touchscreen. 
 
 Testing has been carried out using the following methods:
 1. HTML code has been validated through the [W3 Consortium's HTML validator](https://validator.w3.org/#validate_by_input) and subsequently improved. 
@@ -204,9 +204,17 @@ Testing has been carried out using the following methods:
     4. Try to submit the form without a comment and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid.
 
+This product looks the same on almost all screensizes, but has been developed with the mobile/tablet user in mind and respons to that.
+The differences are:
+- Larger screensizes will show the review section on the Homepage, smaller sizes will not show these.
+- Larger screensizes will display the three circular pictures on the homepage horizontally, smaller will display these beneath each either 2 next to each other and one below,
+  or completely vertically.
+- A similar approach has been used for the Canoes page with the canoes sections (medium size 2 in a row, one below, smaller sizes all vertically below each other.
+- The Routes page displays the routes next to each other on larger screens, on smaller screens below each other.
+- The Booking form will take up less real estate on larger screens but will occuppy full width on smaller screens to enable the form selection options to display as much placeholder text as possible. 
+- The Contact page will display all sections vertically on smaller screen sizes, but will rearrange these in wider and horizontally grouped sections on larger screens.
+- The navigation bar will be fully visible on larger screensizes, but will display a hamburger button on medium and smaller screensizes.
 
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 BUGS:
 - when I changed the third column of the busines section to md-12, navigation-bar started to hide partly behind the hero-image. 

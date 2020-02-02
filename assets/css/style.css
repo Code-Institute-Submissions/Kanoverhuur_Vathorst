@@ -576,11 +576,15 @@ body {
     background-color: #959ead;
 }
 
-#singleKayakCarousel .active,
-#dualKayakCarousel .active,
-#canadianCanoeCarousel .active {
+.carousel-indicators .active {
     background-color: #aa0d19;
 }
+
+/*#singleKayakCarousel li .active,
+#dualKayakCarousel li .active,
+#canadianCanoeCarousel li .active {
+    background-color: #aa0d19;
+}*/
 
 .carousel {
     max-width: 90%;
@@ -596,7 +600,7 @@ body {
 .canoes-carousel-inner {
     position: relative;
     width: 100%;
-    height: 400px;
+    min-height: 200px;
     overflow: hidden;
     }
 

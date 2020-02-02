@@ -568,12 +568,6 @@ body {
     text-align: center;
 }
 
-/*
-.carousel-control-next-icon, .carousel-control-prev-icon {
-    background-color: #aa0d19;
-}
-*/
-
 .carousel-indicators li {
     background-color: #959ead;
 }
@@ -590,7 +584,6 @@ body {
 
 .carousel-item {
     background-position: center;
-    background-clip: content-box;
 }
 
 

@@ -381,29 +381,12 @@ body {
 .circle-image {
     height: 100%;
     border-radius: 50%;
+    transition-duration: 1.5s;
 }
 
 .circle-image:hover {
-    animation-name: circle-image-zoom;
-    animation-timing-function: ease-in-out;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-    animation-direction: alternate;
-    animation-iteration-count: 1;
-}
-
-
-@keyframes circle-image-zoom {
-    0% {
-        transform: scale(1);
+  transform: scale(1.165, 1.165);
     }
-    50% {
-        transform: scale(1.165);  
-    }
-    100% {
-        tranform: scale(1);
-    }
-}
 
 .offer-container {
     text-align: center;
@@ -762,7 +745,6 @@ body {
     margin-bottom: 0;
 }
 
-
 /*------------- Media Queries*/
 
 @media screen and (max-width: 575px) {
@@ -824,6 +806,5 @@ body {
         width: 80vw;
     }
 }
-
 
 

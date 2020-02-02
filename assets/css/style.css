@@ -679,8 +679,9 @@ body {
 }
 
 .booking-row {
-    width: 50vw;
+    width: 100vw;
     margin: 0 auto;
+    margin-top: 15px;
     }
 
 .booking-column {
@@ -700,7 +701,13 @@ body {
     max-width: 100%;
     border-radius: .3rem;
     justify-content: center;
+    margin: 0 auto;
     display: flex;
+}
+
+.booking-select {
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .contact-details {
@@ -789,9 +796,6 @@ body {
         font-weight: 400;
         padding-left: 5px;
     }
-    .booking-row {
-        width: 70vw;
-    }
 }
 
 @media screen and (max-width: 494px) {
@@ -809,7 +813,7 @@ body {
         padding-left: 5px;
     }
     .booking-row {
-        width: 90vw;
+        padding: 0px;
     }
 }
 
@@ -822,6 +826,18 @@ body {
     }
     .booking-row {
         width: 100vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .booking-row {
+        width: 60vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .booking-row {
+        width: 80vw;
     }
 }
 

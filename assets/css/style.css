@@ -64,9 +64,6 @@ body {
 
 .hero-image {
     background: url(../images/IMG_0458_449.jpg) no-repeat center center fixed;
-    /* -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover; */
     background-size: cover;
     display: flex;
     align-items: center;
@@ -79,9 +76,6 @@ body {
 
 .markenhaven-image {
     background: url(../images/Markenhaven-Albert-Dros-1732x1080.jpg) no-repeat center center fixed;
-    /* -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover; */
     background-size: cover;
     display: flex;
     align-items: center;
@@ -94,10 +88,6 @@ body {
 
 .routes-background {
     background: url(../images/filip-mroz-unsplash293.jpg) no-repeat center center fixed;
-    /* -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover; */
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,9 +99,6 @@ body {
 
 .canoes-background {
     background: url(../images/james-coleman-unsplash309.jpg) no-repeat center center fixed;
-    /* -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;*/
     background-size: cover;
     display: flex;
     align-items: center;
@@ -124,9 +111,6 @@ body {
 
 .paddle-background {
     background: url(../images/louis-hansel-unsplash303.jpg) no-repeat center center fixed;
-    /*-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;*/
     background-size: cover;
     display: flex;
     align-items: center;
@@ -149,7 +133,6 @@ body {
     height: 100%;
     width: 100%;
     position: absolute;
-    /*z-index: 1; */
 }
 
 #jumbotron-header {
@@ -552,9 +535,8 @@ body {
 
 .specs-container {
     border: 1px solid #aa0d19;
-   /* padding-top: 10px 0;*/
-   margin: 10px 45px;
-   border-radius: .3rem;
+    margin: 10px 45px;
+    border-radius: .3rem;
 }
 
 .canoe-info-specs {
@@ -815,6 +797,14 @@ body {
     .booking-row {
         padding: 0px;
     }
+    .contact-column {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .contact-info,
+    .opening-hours {
+        height: 290px;
+    }   
 }
 
 @media screen and (max-width: 320px) {
@@ -831,7 +821,7 @@ body {
 
 @media screen and (min-width: 1024px) {
     .booking-row {
-        width: 60vw;
+        width: 50vw;
     }
 }
 

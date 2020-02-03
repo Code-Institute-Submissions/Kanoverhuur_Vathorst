@@ -1,6 +1,6 @@
 ![screenshot Kanoverhuur Vathorst](https://github.com/RienHazeleger/Kanoverhuur_Vathorst/blob/master/assets/wireframes/screenshot.jpeg)
 
-# Kanoverhuur Vathorst
+# [Kanoverhuur Vathorst](https://rienhazeleger.github.io/Kanoverhuur_Vathorst/)
 
 # Contents
    [Introduction](#Introduction)  

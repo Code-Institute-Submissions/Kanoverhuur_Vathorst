@@ -13,6 +13,7 @@ body {
 }
 
 /* ----------------- navbar */
+
 .container-wrapper-nav {
     height: 75px;
     padding: 0;
@@ -65,7 +66,7 @@ body {
 
 
 .hero-image {
-    background: url(../images/hero/home-hero.jpg) no-repeat center center fixed;
+    background: url("../images/hero/home-hero.jpg") no-repeat center center fixed;
     background-size: cover;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -83,7 +84,7 @@ body {
 }
 
 .markenhaven-image {
-    background: url(../images/hero/contact-hero.jpg) no-repeat center center fixed;
+    background: url("../images/hero/contact-hero.jpg") no-repeat center center fixed;
     background-size: cover;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -101,7 +102,7 @@ body {
 }
 
 .routes-background {
-    background: url(../images/hero/routes-hero.jpg) no-repeat center center fixed;
+    background: url("../images/hero/routes-hero.jpg") no-repeat center center fixed;
     background-size: cover;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -119,7 +120,7 @@ body {
 }
 
 .canoes-background {
-    background: url(../images/hero/canoes-hero.jpg) no-repeat center center fixed;
+    background: url("../images/hero/canoes-hero.jpg") no-repeat center center fixed;
     background-size: cover;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -137,7 +138,7 @@ body {
 }
 
 .paddle-background {
-    background: url(../images/hero/booking-hero.jpg) no-repeat center center fixed;
+    background: url("../images/hero/booking-hero.jpg") no-repeat center center fixed;
     background-size: cover;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -314,7 +315,6 @@ body {
             animation-direction: normal;
 }
 
-
 @keyframes reveal {
     0% {opacity:0;width:80vw;}
     10% {opacity:0.2;}
@@ -377,7 +377,6 @@ body {
     line-height: 2em;
 }
 
-
 /* ------------------ Quotes section */
 
 .grey-row {
@@ -409,7 +408,6 @@ body {
 
 .business-offer {
     margin-top: 20px;
-   /* background-color: #f2f2f2; */
 }
 
 .circle-container {
@@ -527,8 +525,6 @@ body {
     font-size: 10px;
     }
 
-
-
 /*-- Canoes page*/
 
 .canoe-column {
@@ -641,7 +637,7 @@ body {
     top: 50px;
 }
 
- /*------------- Routes page*/
+/*------------- Routes page*/
 
 .routes-top-column {
     margin: 0 auto;
@@ -669,7 +665,6 @@ body {
     padding-right: 45px;
 }
 
-
 .active, .dot:hover {
   background-color: #f2f2f2;
 }
@@ -688,8 +683,7 @@ body {
     color: #aa0d19;
 }
 
-
- /*------------- Booking page*/
+/*------------- Booking page*/
 
 .form-control {
     margin-bottom: 15px;
@@ -705,11 +699,6 @@ body {
     margin: 0 auto;
     margin-top: 15px;
     }
-
-/*
-.booking-column {
-    color: #000;
-}*/
 
 .booking-legend {
     font-size: 16px;
@@ -770,7 +759,6 @@ body {
 }
 
 /*------------- Contact page*/
-
 
 .contact-column h3 {
     color: #000;

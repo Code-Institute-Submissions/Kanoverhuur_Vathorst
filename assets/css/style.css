@@ -63,7 +63,7 @@ body {
 
 
 .hero-image {
-    background: url(../images/IMG_0458_449.jpg) no-repeat center center fixed;
+    background: url(../images/hero/home-hero.jpg) no-repeat center center fixed;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -75,7 +75,7 @@ body {
 }
 
 .markenhaven-image {
-    background: url(../images/Markenhaven-Albert-Dros-1732x1080.jpg) no-repeat center center fixed;
+    background: url(../images/hero/contact-hero.jpg) no-repeat center center fixed;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -87,7 +87,8 @@ body {
 }
 
 .routes-background {
-    background: url(../images/filip-mroz-unsplash293.jpg) no-repeat center center fixed;
+    background: url(../images/hero/routes-hero.jpg) no-repeat center center fixed;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -98,7 +99,7 @@ body {
 }
 
 .canoes-background {
-    background: url(../images/james-coleman-unsplash309.jpg) no-repeat center center fixed;
+    background: url(../images/hero/canoes-hero.jpg) no-repeat center center fixed;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -110,7 +111,7 @@ body {
 }
 
 .paddle-background {
-    background: url(../images/louis-hansel-unsplash303.jpg) no-repeat center center fixed;
+    background: url(../images/hero/booking-hero.jpg) no-repeat center center fixed;
     background-size: cover;
     display: flex;
     align-items: center;

@@ -65,7 +65,7 @@ body {
 
 
 .hero-image {
-    background: url(../images/hero/home-hero.jpg) no-repeat center center fixed;
+    background: url(../images/hero/home-hero.jpg) no-repeat center center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

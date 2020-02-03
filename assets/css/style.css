@@ -786,11 +786,14 @@ body {
     .canoe-description {
         height: 350px;
     }
+    .canadian-canoes {
+        height: 200px;
+    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .canoe-description {
-        height: 250px;
+        height: 350px;
     }
 }
 

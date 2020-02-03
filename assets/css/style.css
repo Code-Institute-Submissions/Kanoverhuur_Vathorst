@@ -500,7 +500,7 @@ body {
 }
 
 .canoe-description {
-    height: 400px;
+    height: 250px;
     width: auto;
 }
 
@@ -756,38 +756,61 @@ body {
 
 /*------------- Media Queries*/
 
+@media screen and (max-width: 1441px) {
+    .canoe-description {
+        height: 325px;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .routes-text {
         padding-left: 25px;
         padding-right: 25px;
     }
+    .canoe-description {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .routes-text {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .canoe-description {
+        height: 450px;
+    }
 }
 
 @media screen and (max-width: 991px) {
     .canoe-description {
-        height: 350px
+        height: 350px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .canoe-description {
-        height: 300px;
+        height: 250px;
     }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 572px) {
     #logo {
         font-size: 2rem;
         letter-spacing: 0.1rem;
         font-weight: 400;
         padding-left: 5px;
     }
+
 }
 
 @media screen and (max-width: 494px) {
     .contact-info,
     .opening-hours {
         height: 260px;
+    }
+    .canoe-description {
+        height: 455px;
     }
 }
 
@@ -808,7 +831,10 @@ body {
     .contact-info,
     .opening-hours {
         height: 290px;
-    }   
+    } 
+    .canoe-description {
+        height: 350px;
+    }
 }
 
 @media screen and (max-width: 320px) {

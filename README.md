@@ -220,14 +220,17 @@ The differences are:
 ### Bugs:
 This section briefly describes the difficulties encountered when producing this application.
 - when I changed the third column of the busines section to md-12, navigation-bar started to hide partly behind the hero-image. 
-- both forms (booking.html and contact.html) provide an error page after submitting, because the form action has not been defined yet. This will be solved in the future when the website will
-  be hosted at the provider.
+- both forms (booking.html and contact.html) provided an error page after submitting, because the form action has not been defined yet. For this purpose,
+  method and post properties were omitted on purpose.
 - following a peer review, three of the four social icons showed an underline when hovered. Removed by adding text-decoration:none to those links
 - Pages with large hero-images took a long time to load: all pictures have been resized to max 300kb to enable quick loading.
 - following an attempt to update the canoes carousel, the carousel started to show background colors on the next/forward buttons and showing the pictures outside of the div-element. This has been solved by
   centering the background-position and defining the size of the image container.
 - the canoes carousel refused to be outlined along the three columns; I have given each description div a set height and set the top for the dual canoes images. That did the trick. It did require mediaqueries however
   to make sure they respond well.
+- Although the ChromeDev tool emulates iOS devices well, in reality it does not work; hero-images do not display properly on iOS devices from a deployed website. 
+  It has to do with the 'fixed' value in the background-attachment property. Taking "fixed" out will show the hero image on iOS devices properly, but I want it to be fixed.
+  I have done research on StackOverflow and asked on Slack, but have not been able to find a fix for it.
 
 
 ## Deployment

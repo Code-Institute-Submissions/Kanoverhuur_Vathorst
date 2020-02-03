@@ -499,6 +499,11 @@ body {
     font-size: 16px;
 }
 
+.canoe-description {
+    height: 400px;
+    width: auto;
+}
+
 .canoe-heading {
     font-size: 24px;
     font-weight: bold;
@@ -570,13 +575,16 @@ body {
     background-position: center;
 }
 
-
 .canoes-carousel-inner {
     position: relative;
     width: 100%;
     min-height: 200px;
     overflow: hidden;
     }
+
+#dualKayakCarousel .carousel-item {
+    top: 50px;
+}
 
  /*------------- Routes page*/
 
@@ -752,6 +760,18 @@ body {
     .routes-text {
         padding-left: 25px;
         padding-right: 25px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .canoe-description {
+        height: 350px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .canoe-description {
+        height: 300px;
     }
 }
 

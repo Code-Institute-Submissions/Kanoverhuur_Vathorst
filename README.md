@@ -164,10 +164,8 @@ Testing has been carried out using the following methods:
 2. CSS has been validated by running it in the [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_input) of the same consortium, and subsequently improved. 
 3. Google Chrome's DevTools has been used to test responsiveness, media queries and check for bugs on several devices including Pixel devices, Galaxy S5, Galaxy S III, iPad Pro, iPad, iPad Mini, iPhone 5/6/7/8/X.
 4. The site has also been run through [Justin Avery's website](http://ami.responsivedesign.is/) to check for errors and responsiveness. A screenshot of that is provided at the top of this document. I'm aware that 
-
 5. Peers of the Code Institute Full Stack Software Development have been requested to provide their views and use their browsers for feedback. See also the Acknowledgements chapter.
-
-6. 
+6. The CSS code has been run through [Autoprefixer](https://autoprefixer.github.io/) to check for webkits. 
 
 ### Scenario testing
 

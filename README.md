@@ -162,9 +162,12 @@ Microsoft Edge (version 44.18362.449.0) on an HP Elitebook with touchscreen.
 Testing has been carried out using the following methods:
 1. HTML code has been validated through the [W3 Consortium's HTML validator](https://validator.w3.org/#validate_by_input) and subsequently improved. 
 2. CSS has been validated by running it in the [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_input) of the same consortium, and subsequently improved. 
-3. Google Chrome's DevTools has been used to test responsiveness and check for bugs
-4. The site has also been run through [Justin Avery's website](http://ami.responsivedesign.is/) to check for errors and responsiveness. A screenshot of that is provided at the top of this document.
-5. Peers of the Code Institute Full Stack Software Development have been requested to provide their views and use their browsers for feedback.
+3. Google Chrome's DevTools has been used to test responsiveness, media queries and check for bugs on several devices including Pixel devices, Galaxy S5, Galaxy S III, iPad Pro, iPad, iPad Mini, iPhone 5/6/7/8/X.
+4. The site has also been run through [Justin Avery's website](http://ami.responsivedesign.is/) to check for errors and responsiveness. A screenshot of that is provided at the top of this document. I'm aware that 
+
+5. Peers of the Code Institute Full Stack Software Development have been requested to provide their views and use their browsers for feedback. See also the Acknowledgements chapter.
+
+6. 
 
 ### Scenario testing
 
@@ -204,7 +207,7 @@ Testing has been carried out using the following methods:
     4. Try to submit the form without a comment and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid.
 
-This product looks the same on almost all screensizes, but has been developed with the mobile/tablet user in mind and respons to that.
+This product looks the same on almost all screensizes, but has been developed with the mobile/tablet user in mind and response to that.
 The differences are:
 - Larger screensizes will show the review section on the Homepage, smaller sizes will not show these.
 - Larger screensizes will display the three circular pictures on the homepage horizontally, smaller will display these beneath each either 2 next to each other and one below,
@@ -216,7 +219,8 @@ The differences are:
 - The navigation bar will be fully visible on larger screensizes, but will display a hamburger button on medium and smaller screensizes.
 
 
-BUGS:
+### Bugs:
+This section briefly describes the difficulties encountered when producing this application.
 - when I changed the third column of the busines section to md-12, navigation-bar started to hide partly behind the hero-image. 
 - both forms (booking.html and contact.html) provide an error page after submitting, because the form action has not been defined yet. This will be solved in the future when the website will
   be hosted at the provider.
@@ -224,6 +228,9 @@ BUGS:
 - Pages with large hero-images took a long time to load: all pictures have been resized to max 300kb to enable quick loading.
 - following an attempt to update the canoes carousel, the carousel started to show background colors on the next/forward buttons and showing the pictures outside of the div-element. This has been solved by
   centering the background-position and defining the size of the image container.
+- the canoes carousel refused to be outlined along the three columns; I have given each description div a set height and set the top for the dual canoes images. That did the trick. It did require mediaqueries however
+  to make sure they respond well.
+
 
 ## Deployment
 This project was developed using Gitpod, commmitted and pushed to Github and deployed on Github Pages. 
@@ -271,8 +278,9 @@ usable and altered the iterations and styling to fit the website.
 - The photo VVV_vogels has been borrowed from the local tourist agency VVV Amersfoort.  
 
 ### Acknowledgements
-A big thanks to the Slack community hosting the fellow students, tutors and mentors for Code Institute's program; they have been great mental and technical support in getting this milestone done.
-A special thanks to my mentor Narender Singh for making the time to go through the project with me, giving me tips and hints and supporting me throughout the development. 
+A big thanks to the Slack community hosting the fellow students, tutors and mentors for Code Institute's program; they have been great mental and technical support in getting this milestone done, with a special thanks to 
+Tim Nelson, Anthony O'Brien, Anna Greaves, John Long and Simen Daehlin for helping me out with the bugs when I was about to give up on them prior to submission.  
+A special thanks to my mentor Narender Singh for making the time to go through the project with me, giving me tips and hints, challenging me to go an extra mile and supporting me throughout the development. 
 
 	
 
